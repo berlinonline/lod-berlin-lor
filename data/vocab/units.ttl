@@ -5,56 +5,67 @@
 @prefix schema: <https://schema.org/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-@prefix :     <https://berlinonline.github.io/lod-berlin-lor/vocab/> .
+@prefix unit: <https://berlinonline.github.io/lod-berlin-lor/vocab/> .
 
 # LOR Units
 
-:LOR_Unit a owl:Class ;
+unit: a owl:Ontology ;
+    rdfs:label "LOR-Einheiten-Vokabular"@de ;
+    rdfs:label "LOR Unit Vocabulary"@en ;
+    rdfs:comment """Ein einfaches Vokabular zur Beschreibung von Einheiten der
+    'Lebensweltlich orientierten Räume' (LOR), einer räumlichen Gliederung zur 'Planung, Prognose
+    und Beobachtung demografischer und sozialer Entwicklungen in Berlin'."""@de ;
+    rdfs:comment """A simple vocabulary for describing units of the Lebensweltlich orientierten Räume'
+    (LOR), a geographic breakdown of Berlin for the purpose of planning, prognosis and observation of
+    demographic and social developments."""@en ;
+.
+
+unit:LOR_Unit a owl:Class ;
     rdfs:label "LOR Unit"@en ;
-    rdfs:label "LOR Einheit"@de ;
+    rdfs:label "LOR-Einheit"@de ;
     rdfs:comment """A unit of the 'Lebensweltlich orientierten Räume' (LOR), 
     a geographic breakdown of Berlin for the purpose of planning, prognosis and observation of
     demographic and social developments."""@en ;
     rdfs:comment """Eine Einheit der 'Lebensweltlich orientierten Räume' (LOR), 
     einer räumlichen Gliederung zur 'Planung, Prognose und Beobachtung demografischer 
     und sozialer Entwicklungen in Berlin'."""@de ;
-    schema:subjectOf <https://www.stadtentwicklung.berlin.de/planen/basisdaten_stadtentwicklung/lor/> ;
+    schema:subjectOf <https://www.berlin.de/sen/sbw/stadtdaten/stadtwissen/sozialraumorientierte-planungsgrundlagen/lebensweltlich-orientierte-raeume/> ;
     rdfs:subClassOf schema:AdministrativeArea ;
     rdfs:subClassOf geo:Feature ;
-    rdfs:isDefinedBy : ;
+    rdfs:isDefinedBy unit: ;
 .
 
-:Bezirk a owl:Class ;
-    rdfs:subClassOf :LOR_Unit ;
+unit:Bezirk a owl:Class ;
+    rdfs:subClassOf unit:LOR_Unit ;
     rdfs:label "District"@en ;
     rdfs:label "Bezirk"@de ;
-    rdfs:isDefinedBy : ;
+    rdfs:isDefinedBy unit: ;
 .
 
-:Prognoseraum a owl:Class ;
-    rdfs:subClassOf :LOR_Unit ;
+unit:Prognoseraum a owl:Class ;
+    rdfs:subClassOf unit:LOR_Unit ;
     rdfs:label "Prognoseraum"@de ;
-    rdfs:isDefinedBy : ;
+    rdfs:isDefinedBy unit: ;
 .
 
-:Bezirksregion a owl:Class ;
-    rdfs:subClassOf :LOR_Unit ;
+unit:Bezirksregion a owl:Class ;
+    rdfs:subClassOf unit:LOR_Unit ;
     rdfs:label "Bezirksregion"@de ;
-    rdfs:isDefinedBy : ;
+    rdfs:isDefinedBy unit: ;
 .
 
-:Planungsraum a owl:Class ;
-    rdfs:subClassOf :LOR_Unit ;
+unit:Planungsraum a owl:Class ;
+    rdfs:subClassOf unit:LOR_Unit ;
     rdfs:label "Planungsraum"@de ;
-    rdfs:isDefinedBy : ;
+    rdfs:isDefinedBy unit: ;
 .
 
 # Properties
 
-:lorCode a owl:DatatypeProperty ;
+unit:lorCode a owl:DatatypeProperty ;
     rdfs:label "LOR code"@en ;
     rdfs:label "LOR Code"@de ;
-    rdfs:isDefinedBy : ;
-    rdfs:domain :LOR_Unit ;
+    rdfs:isDefinedBy unit: ;
+    rdfs:domain unit:LOR_Unit ;
     rdfs:range xsd:string ;
 .

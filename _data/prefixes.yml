@@ -33,3 +33,6 @@
 
 - prefix: lor
   url: https://berlinonline.github.io/lod-berlin-lor/
+
+- prefix: unit
+  url: https://berlinonline.github.io/lod-berlin-lor/vocab/
