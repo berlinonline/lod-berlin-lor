@@ -1,9 +1,9 @@
-baseurl: "/lod-sg" # the subpath of your site, e.g. /blog
+baseurl: "/lod-berlin-lor" # the subpath of your site, e.g. /blog
 url: "https://berlinonline.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 true_url: "https://berlinonline.github.io" # This duplication is necessary to make relative links work when
     # running the Jekyll-Site locally, when `url` is replaced with somehting like http://localhost:4000
 
-dataset_url: "/lod-sg/"
+dataset_url: "/lod-berlin-lor/"
 dataset_breadcrumb: "Datensatz"
 cbd_folder: "cbds/"
 
@@ -21,7 +21,7 @@ plugins:
 # Jekyll RDF settings
 jekyll_rdf:
     path: "data/temp/all.nt"
-    restriction: "SELECT ?resourceUri WHERE { ?resourceUri ?predicate ?object FILTER(STRSTARTS(STR(?resourceUri), 'https://berlinonline.github.io/lod-sg')) }"
+    restriction: "SELECT ?resourceUri WHERE { ?resourceUri ?predicate ?object FILTER(STRSTARTS(STR(?resourceUri), 'https://berlinonline.github.io/lod-berlin-lor')) }"
     default_template: "default"
     class_template_mappings:
         "http://rdfs.org/ns/void#Dataset": "dataset"

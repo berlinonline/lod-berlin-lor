@@ -30,3 +30,6 @@
 
 - prefix: lodbo
   url: https://berlinonline.github.io/lod-berlin-bo/
+
+- prefix: lor
+  url: https://berlinonline.github.io/lod-berlin-lor/
