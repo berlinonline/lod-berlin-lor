@@ -14,12 +14,21 @@
 
 lor:
     a void:Dataset ;
-    dct:title "Lebensweltlich Orientierte Räume (LOR) als RDF – 01.01.2021"@de ;
+    dct:title "Lebensweltlich Orientierte Räume (LOR) als RDF (LOR Version 01.01.2021)"@de ;
+    dct:title "'Lebensweltlich Orientierte Räume' (LOR) as RDF (LOR version 01.01.2021)"@en ;
     dct:description """Die lebensweltlich orientierten Räume (LORs) gliedern das Land Berlin
-        in geografische Einheiten auf vier hierarchischen Stufen, beginnend bei den Bezirken
-        bis hinunter zu den Planungsräumen. Die LORs bilden die räumliche Grundlage für Planung,
+        in geografische Einheiten auf vier hierarchischen Stufen, beginnend bei den 12 Bezirken,
+        über 58 Prognoseräume, 143 Bezirksregionen, bis hinunter zu den 542 Planungsräumen.
+        Die LORs bilden die räumliche Grundlage für Planung,
         Prognose und Beobachtung demografischer und sozialer Entwicklungen in Berlin. Dieser
         Datensatz bildet die Daten der bestehenden WFS-Dienste als Linked Data bzw. RDF ab."""@de ;
+    dct:description """The 'Lebensweltlich orientierten Räume', or LOR, is a system that divides
+        the city of Berlin into a hierarchy of continuously smaller geographical units. At the top are
+        the 12 Bezirke (burroughs). The Bezirke are divided into 58 Prognoseräume, which are further
+        divided into 143 Bezirksregionen. Finally, at the lowest level, there are 542 Planungsräume.
+        The LORs are the basis for planning, prognosis and monitoring of demographic and social
+        developments in Berlin. This dataset is a conversion of the existing WFS-services to
+        Linked Data, or RDF."""@en ;
     dct:created "2022-12-31"^^xsd:date ;
     dct:modified "2023-03-28"^^xsd:date ;
     dct:publisher lodbo:berlinonline ;
