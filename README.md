@@ -16,4 +16,4 @@ It is then published as Linked Open Data using the [LOD Site Generator](https://
 
 ## License
 
-All code in this repository is published under the [MIT License](License). All data (in particular [void.ttl](void.ttl) and [data/target/lors.ttl](data/static/berlinonline.ttl)) are published under [CC0](https://creativecommons.org/publicdomain/zero/1.0/).
+All code in this repository is published under the [MIT License](License). All data (in particular [void.ttl](void.ttl) and [data/target/lors.ttl](data/target/lors.ttl)) are published under [CC0](https://creativecommons.org/publicdomain/zero/1.0/).
