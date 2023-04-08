@@ -1,62 +1,19 @@
-# LOD Browser
+# Berlin's LOR structure ('Lebensweltlich Orientierte Räume') as Linked Open Data
 
-The Linked Data Browser (LOD Browser) is a tool to create a static website from and for an RDF dataset.
-It uses the [Jekyll](https://jekyllrb.com) static site generator with the [Jekyll RDF](https://github.com/AKSW/jekyll-rdf) plugin to create one HTML page per RDF resource in the input graph.
-The project contains a small number of basic page templates to produce a generic website.
-By adding additional templates for specific kinds of RDF resources, LOD Browser can be the starting point for developing tailor-made sites for individual datasets.
+The 'Lebensweltlich orientierten Räume', or LOR, is a system that divides the city of Berlin into a hierarchy of continuously smaller geographical units. 
+At the top are the 12 Bezirke (burroughs).
+The Bezirke are divided into 58 Prognoseräume, which are further divided into 143 Bezirksregionen.
+Finally, at the lowest level, there are 542 Planungsräume.
+The LORs are the basis for planning, prognosis and monitoring of demographic and social developments in Berlin. 
 
-## Features
+This dataset is a conversion of the existing WFS-services to Linked Data, or RDF.
 
-### Skeleton Structure 
+The data is converted using a series of scripts and tools, all orchestrated by the [Makefile](Makefile).
 
-… for generating and publishing a LOD dataset with Jekyll
+It is then published as Linked Open Data using the [LOD Site Generator](https://github.com/berlinonline/lod-sg) repository as a template.
 
-- [ ] folder structure
-- [ ] basic configuration
-- [ ] basic dataset description using the [VoID](https://www.w3.org/TR/void/ "Specification for the VoID vocabulary for describing Linked Datasets") vocabulary
-- [ ] a Makefile for orchestrating common tasks such as merging and converting RDF input files, generating the static website
+**[Start browsing the data!](https://berlinonline.github.io/lod-berlin-lor/)**
 
-### Page Templates
+## License
 
-… for generating HTML pages out of RDF resources (using the [Liquid](https://shopify.github.io/liquid/ "Documentation for the Liquid template language") template language).
-
-- [ ] a default page template 
-- [ ] a default page header
-- [ ] a default page footer
-- [ ] a dataset template (for instances of `void:Dataset`)
-- [ ] some more templates for common resource types such as organizations, people, geographic features etc.
-- [ ] page includes such as:
-  - [ ] statement tables (resource as subject and resource as object)
-  - [ ] a [Mermaid](https://mermaid.js.org "Documentation for the Mermaid JavaScript diagramming library") graph showing the same statements
-  - [ ] a [Leaflet](https://leafletjs.com "Documentation for the Leaflet JavaScript map library ") map display for geographic features
-
-## Requirements
-
-- The [Jekyll](https://jekyllrb.com) static site generator with the [jekyll-rdf](https://github.com/AKSW/jekyll-rdf) plugin. Jekyll is based on the Ruby language, so you first need to make sure that you have Ruby available on your command line. Once that is ensured, you can install Jekyll like this (this command installs the dependencies that are defined in the [Gemfile](/Gemfile)):
-
-```
-$ bundle install
-```
-
-- Python 3 with the [rdflib](https://rdflib.readthedocs.io/) library. If you have that, create a virtual environment, activate it and install rdflib via the [requirements.txt](/requirements.txt) file:
-
-```
-$ python -m venv venv
-$ . venv/bin/activate
-(venv) $ pip install -r requirements.txt
-```
-
-## Using the Site Generator
-
-To generate a new static site for your dataset, you need to perform the following steps:
-
-- Create a new repository that will be the home for your LOD-site.
-  - Create this repository using the LOD-Browser repository as the template.
-- Put a `.ttl` (Turtle) file with your RDF data in `/data`.
-  - This is the bare minimum. Of course, you could also add code or other assets that will be used to generate the Turtle-file in `/data`. I usually put some scripts in `/bin` that convert the source (non-RDF) data into RDF, maybe some static boilerplate RDF in `/data/static`, and some plumbing in a `/Makefile` to orchestrate and automate the process of building the output data.
-- Adjust the [void.ttl](/void.ttl) file that describes your dataset.
-- Adjust [_config.yml](/_config.yml) to configure the creation of the static site.
-
----
-
-
+All code in this repository is published under the [MIT License](License). All data (in particular [void.ttl](void.ttl) and [data/target/lors.ttl](data/static/berlinonline.ttl)) are published under [CC0](https://creativecommons.org/publicdomain/zero/1.0/).
