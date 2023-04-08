@@ -34,14 +34,17 @@ lor:
     void:exampleResource <https://berlinonline.github.io/lod-berlin-lor/bzr_025007> ;
     void:exampleResource <https://berlinonline.github.io/lod-berlin-lor/plr_02500729> ;
     # void:exampleResource <...> ;
-    prov:wasGeneratedBy lodsg:triplification ;
+    prov:wasGeneratedBy lor:triplification ;
 .
 
 lor:triplification
     a prov:Activity ;
     rdfs:label "Triplifizierung"@de ;
-    rdfs:comment "Die Konvertierung des Quelldatensatzes in RDF"@de ;
-    prov:used datenregister:source_id ;
+    rdfs:comment "Die Konvertierung des Quelldatensatzes nach RDF"@de ;
+    prov:used datenregister:lebensweltlich-orientierte-raume-lor-planungsraume-01-01-2021-wfs-a94453c1 ;
+    prov:used datenregister:lebensweltlich-orientierte-raume-lor-bezirksregionen-01-01-2021-wfs-c8e30764 ;
+    prov:used datenregister:lebensweltlich-orientierte-raume-lor-prognoseraume-01-01-2021-wfs-1329568d ;
+    prov:used datenregister:alkis-berlin-gemeinde-wfs-3fbfcbce ;
 .
 
 lor:impressum
