@@ -27,3 +27,8 @@ jekyll_rdf:
         "http://rdfs.org/ns/void#Dataset": "dataset"
         "https://schema.org/Organization": "organization"
         "https://berlinonline.github.io/lod-sg/ImprintPage": "imprint"
+        "https://schema.org/State": "lor_unit"
+        "https://berlinonline.github.io/lod-berlin-lor/vocab/Bezirk": "lor_unit"
+        "https://berlinonline.github.io/lod-berlin-lor/vocab/Prognoseraum": "lor_unit"
+        "https://berlinonline.github.io/lod-berlin-lor/vocab/Bezirksregion": "lor_unit"
+        "https://berlinonline.github.io/lod-berlin-lor/vocab/Planungsraum": "lor_unit"

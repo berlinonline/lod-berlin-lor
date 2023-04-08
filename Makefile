@@ -1,4 +1,7 @@
 berlinonline_url = https://raw.githubusercontent.com/berlinonline/lod-berlin-bo/main/data/static/berlinonline.ttl
+wfs_base = https://fbinter.stadt-berlin.de/fb/wfs/data/senstadt/
+bez_layer = s_wfs_alkis_bezirk
+bez_wfs_url = $(wfs_base)$(bez_layer)
 
 data/temp/void.nt: data/temp
 	@echo "converting void.ttl to $@ ..."
@@ -19,6 +22,39 @@ data/temp/all.nt: data/temp void.ttl data/temp/berlinonline.ttl data/target/lors
 cbds: _includes/cbds data/temp/all.nt
 	@echo "computing concise bounded descriptions for all subjects in input data"
 	@python bin/compute_cbds.py --base="https://berlinonline.github.io/lod-berlin-lor/"
+
+# LOR-related targets
+
+# Conversion of source data to RDF
+data/target/lors.ttl: data/temp/bez.geojson data/temp/pgr.geojson data/temp/bzr.geojson data/temp/plr.geojson
+	@echo "writing Turtle to $@ ..."
+	@python bin/geojson2rdf.py --output=$@
+
+# getting the source data for Bezirke
+data/temp/bez.xml: data/temp
+	@echo "getting layer $(bez_layer) from $(bez_wfs_url) ..."
+	@echo "writing to $@ ..."
+	@curl --output $@ "$(bez_wfs_url)?service=wfs&version=2.0.0&request=GetFeature&typeNames=$(bez_layer)"
+
+# getting the source data for Prognoseraum, Bezirksregion, Planungsraum
+.PRECIOUS: data/temp/%.xml
+data/temp/%.xml: data/temp
+	$(eval LAYER := "s_lor_$(basename $(notdir $@))_2021")
+	@echo "getting layer $(LAYER) from $(wfs_base)$(LAYER) ..."
+	@echo "writing to $@ ..."
+	@curl --output $@ "$(wfs_base)$(LAYER)?service=wfs&version=2.0.0&request=GetFeature&typeNames=$(LAYER)"
+
+# Conversion of source data to GeoJSON and projecting to WGS84
+data/temp/%.geojson: data/temp/%.xml
+	@echo "converting $< to geojson"
+	@ogr2ogr -fieldTypeToString All -f "GeoJSON" $@ -s_srs EPSG:25833 -t_srs WGS84 $<
+
+# Just for looking: formatting the source data
+data/temp/%.formatted.xml: data/temp/%.xml
+	@echo "formatting $<, writing to $@ ..."
+	@xmllint --format $< > $@
+
+# Housekeeping
 
 .PHONY: serve-local
 serve-local: data/temp/all.nt cbds
