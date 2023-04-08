@@ -29,6 +29,10 @@ lor:
     void:dataDump <https://raw.githubusercontent.com/berlinonline/lod-berlin-lor/main/data/target/lors.ttl> ;
     void:feature <http://www.w3.org/ns/formats/Turtle> ;
     void:rootResource <https://berlinonline.github.io/lod-berlin-lor/berlin> ;
+    void:exampleResource <https://berlinonline.github.io/lod-berlin-lor/bez_02> ;
+    void:exampleResource <https://berlinonline.github.io/lod-berlin-lor/pgr_0250> ;
+    void:exampleResource <https://berlinonline.github.io/lod-berlin-lor/bzr_025007> ;
+    void:exampleResource <https://berlinonline.github.io/lod-berlin-lor/plr_02500729> ;
     # void:exampleResource <...> ;
     prov:wasGeneratedBy lodsg:triplification ;
 .

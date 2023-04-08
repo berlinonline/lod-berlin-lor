@@ -65,6 +65,22 @@ rdf_prefix_path: "conf/prefixes.sparql"
                   </td>
                 </tr>
               {% endif %}
+              {% assign root_resource = page.rdf | rdf_property: "void:rootResource" %}
+              {% if root_resource %}
+                <tr>
+                  <td>Einstiegsressource:</td>
+                  <td>{% include prefix_url.html iri = root_resource.iri %}</a>
+                  </td>
+                </tr>
+              {% endif %}
+              {% assign example_resources = page.rdf | rdf_property: "void:exampleResource", nil, true %}
+              {% for resource in example_resources %}
+                <tr>
+                  <td>Beispielressource:</td>
+                  <td>{% include prefix_url.html iri = resource.iri %}</a>
+                  </td>
+                </tr>
+              {% endfor %}
               {% assign data_dumps = page.rdf | rdf_property: "void:dataDump", nil, true %}
               {% for data_dump in data_dumps %}
                 <tr>
