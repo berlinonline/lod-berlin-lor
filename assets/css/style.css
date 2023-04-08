@@ -42,6 +42,10 @@ body .container {
     border-bottom: solid 2px #a9a9a9;
 }
 
+.local-graph {
+    padding-top: 15px;
+}
+
 /* #local_graph_content .tab-pane {
     margin-top: 15px;
 }
@@ -49,6 +53,15 @@ body .container {
 #local_graph_content .tab-pane .card {
     margin-bottom: 15px;
 } */
+
+.containment-lists {
+    padding-left: 15px;
+}
+
+#unit-map {
+    height: 300px;
+    width: 400px;
+}
 
 @media (max-width: 768px) {
     .map {
