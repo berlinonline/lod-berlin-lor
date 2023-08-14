@@ -39,24 +39,28 @@ unit:Bezirk a owl:Class ;
     rdfs:subClassOf unit:LOR_Unit ;
     rdfs:label "District"@en ;
     rdfs:label "Bezirk"@de ;
+    unit:acronym "bez" ;
     rdfs:isDefinedBy unit: ;
 .
 
 unit:Prognoseraum a owl:Class ;
     rdfs:subClassOf unit:LOR_Unit ;
     rdfs:label "Prognoseraum"@de ;
+    unit:acronym "pgr" ;
     rdfs:isDefinedBy unit: ;
 .
 
 unit:Bezirksregion a owl:Class ;
     rdfs:subClassOf unit:LOR_Unit ;
     rdfs:label "Bezirksregion"@de ;
+    unit:acronym "bzr" ;
     rdfs:isDefinedBy unit: ;
 .
 
 unit:Planungsraum a owl:Class ;
     rdfs:subClassOf unit:LOR_Unit ;
     rdfs:label "Planungsraum"@de ;
+    unit:acronym "plr" ;
     rdfs:isDefinedBy unit: ;
 .
 
@@ -68,4 +72,11 @@ unit:lorCode a owl:DatatypeProperty ;
     rdfs:isDefinedBy unit: ;
     rdfs:domain unit:LOR_Unit ;
     rdfs:range xsd:string ;
+    rdfs:subPropertyOf schema:identifier ;
+.
+
+unit:acronym a owl:AnnotationProperty ;
+    rdfs:label "Acronym"@en ;
+    rdfs:label "Acronym"@de ;
+    rdfs:isDefinedBy unit: ;
 .
