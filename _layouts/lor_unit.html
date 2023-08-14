@@ -43,7 +43,7 @@ rdf_prefix_path: "conf/prefixes.sparql"
           </nav>
         </div>
       </div>
-      <div class="row main">
+      <div class="row">
         <div class="col-md-5 containment-lists">
           {% capture contains_query %}
             SELECT ?unit ?type_label
@@ -74,6 +74,22 @@ rdf_prefix_path: "conf/prefixes.sparql"
         </div>
         <div class="col-md-7 map">
           <div id="unit-map"></div>
+        </div>
+      </div>
+      <div class="row additional-data">
+        <div class="col-lg-6 col-md-9 col-sm-12">
+          <table class="table table-striped align-middle">
+            <tbody>
+              {% assign versions = page.rdf | rdf_property: "dct:hasVersion", nil, true %}
+              {% for version in versions %}
+                <tr>
+                  <td>Andere Version:</td>
+                  <td>{% include prefix_url.html iri = version.iri %}</a>
+                  </td>
+                </tr>
+              {% endfor %}
+            </tbody>
+          </table>
         </div>
       </div>
       <div class="row local-graph">

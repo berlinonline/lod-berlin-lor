@@ -81,6 +81,14 @@ rdf_prefix_path: "conf/prefixes.sparql"
                   </td>
                 </tr>
               {% endfor %}
+              {% assign versions = page.rdf | rdf_property: "dct:hasVersion", nil, true %}
+              {% for version in versions %}
+                <tr>
+                  <td>Andere Version:</td>
+                  <td>{% include prefix_url.html iri = version.iri %}</a>
+                  </td>
+                </tr>
+              {% endfor %}
               {% assign data_dumps = page.rdf | rdf_property: "void:dataDump", nil, true %}
               {% for data_dump in data_dumps %}
                 <tr>

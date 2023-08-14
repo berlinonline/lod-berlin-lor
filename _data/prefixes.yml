@@ -34,5 +34,8 @@
 - prefix: lor
   url: https://berlinonline.github.io/lod-berlin-lor/
 
+- prefix: lor19
+  url: https://berlinonline.github.io/lod-berlin-lor-2019/
+
 - prefix: unit
   url: https://berlinonline.github.io/lod-berlin-lor/vocab/

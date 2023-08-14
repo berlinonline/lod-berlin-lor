@@ -44,6 +44,7 @@ lor:
     void:exampleResource <https://berlinonline.github.io/lod-berlin-lor/plr_02500729> ;
     # void:exampleResource <...> ;
     prov:wasGeneratedBy lor:triplification ;
+    dct:hasVersion <https://berlinonline.github.io/lod-berlin-lor-2019> ;
 .
 
 lor:triplification

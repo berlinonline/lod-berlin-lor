@@ -2,7 +2,7 @@ import argparse
 import json
 from pathlib import Path
 from urllib.parse import urljoin
-from rdflib import Graph, Literal, RDF, URIRef, Namespace, BNode
+from rdflib import Graph, Literal, RDF, DCTERMS, URIRef, Namespace, BNode
 
 BEZIRKS_MAPPING = {
     '01': "Mitte",
@@ -139,15 +139,18 @@ parser.add_argument('--output',
 args = parser.parse_args()
 
 base = "https://berlinonline.github.io/lod-berlin-lor/"
+base19 = "https://berlinonline.github.io/lod-berlin-lor-2019/"
 graph = Graph()
 schema = Namespace("https://schema.org/")
 geo = Namespace("http://www.opengis.net/ont/geosparql#")
 lor = Namespace(base)
+lor19 = Namespace(base19)
 unit = Namespace(urljoin(base, "vocab/"))
 
 berlin = lor['berlin']
 graph.add( (berlin, RDF.type, schema.State) )
 graph.add( (berlin, schema.name, Literal("Berlin")))
+graph.add( (berlin, DCTERMS.hasVersion, lor19['berlin']) )
 
 for code, title in BEZIRKS_MAPPING.items():
     bezirks_name = f"bez_{code}"
@@ -171,11 +174,13 @@ for code, title in BEZIRKS_MAPPING.items():
     graph.add( (bezirks_res, geo.hasGeometry, bn) )
     geojson = json.dumps(bez_geometries[code])
     graph.add( (bn, geo.asGeoJSON, Literal(geojson, datatype=geo.geoJSONLiteral))  )
+    graph.add( (bezirks_res, DCTERMS.hasVersion, lor19[bezirks_name]) )
 
 for level in list(range(1,4)):
     convert_to_rdf(graph, args.source, level)
 
 graph.bind("lor", lor)
+graph.bind("lor19", lor19)
 graph.bind("unit", unit)
 graph.bind("geo", geo)
 graph.bind("schema", schema)
