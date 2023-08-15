@@ -2,7 +2,7 @@ import argparse
 import json
 from pathlib import Path
 from urllib.parse import urljoin
-from rdflib import Graph, Literal, RDF, DCTERMS, URIRef, Namespace, BNode
+from rdflib import Graph, Literal, RDF, DCTERMS, Namespace, BNode
 
 BEZIRKS_MAPPING = {
     '01': "Mitte",
