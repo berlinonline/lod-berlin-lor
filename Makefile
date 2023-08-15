@@ -1,4 +1,5 @@
 berlinonline_url = https://raw.githubusercontent.com/berlinonline/lod-berlin-bo/main/data/static/berlinonline.ttl
+lors19_url = https://raw.githubusercontent.com/berlinonline/lod-berlin-lor-2019/main/data/target/lors.ttl
 wfs_base = https://fbinter.stadt-berlin.de/fb/wfs/data/senstadt/
 bez_layer = s_wfs_alkis_bezirk
 bez_wfs_url = $(wfs_base)$(bez_layer)
@@ -8,14 +9,33 @@ data/temp/void.nt: data/temp
 	@rdfpipe -o ntriples void.ttl > $@
 
 data/temp/berlinonline.ttl: data/temp
-	@echo "downloading $(berlinonline_url)..."
+	@echo "downloading $(berlinonline_url) ..."
+	@echo "writing to $@ ..."
 	@curl -s -o $@ "$(berlinonline_url)"
+
+data/temp/lors19.ttl: data/temp
+	@echo "download $(lors19_url) ..."
+	@echo "writing to $@ ..."
+	@curl -s -o $@ "$(lors19_url)"
+
+data/temp/all19.nt: data/temp data/temp/lors19.ttl data/vocab/units.ttl
+	@echo "combining $(filter-out $<,$^) to $@ ..."
+	@rdfpipe -o ntriples $(filter-out $<,$^) > $@
+
+data/temp/all19-21.nt: data/target/lors.ttl data/temp/lors19.ttl data/vocab/units.ttl
+	@echo "combining $^ to $@ ..."
+	@rdfpipe -o ntriples $^ > $@
+
+data/target/links19-21.ttl: data/temp/all19-21.nt
+	@echo "computing links between LOR19 and LOR21 ..."
+	@echo "writing to $@ ..."
+	@arq --data $< --query query/link19-21.sparql | rdfpipe -o turtle - > $@
 
 # This target creates the RDF file that serves as the input to the static site generator.
 # All data should be merged in this file. This should include at least the VOID dataset
 # description and the actual data.
 # The target works by merging all prerequisites 
-data/temp/all.nt: data/temp void.ttl data/temp/berlinonline.ttl data/target/lors.ttl data/vocab/units.ttl
+data/temp/all.nt: data/temp void.ttl data/temp/berlinonline.ttl data/target/lors.ttl data/vocab/units.ttl data/target/links19-21.ttl
 	@echo "combining $(filter-out $<,$^) to $@ ..."
 	@rdfpipe -o ntriples $(filter-out $<,$^) > $@
 

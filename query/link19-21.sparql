@@ -1,0 +1,20 @@
+PREFIX lor: <https://berlinonline.github.io/lod-berlin-lor/>
+PREFIX lor19: <https://berlinonline.github.io/lod-berlin-lor-2019/>
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX schema: <https://schema.org/>
+
+CONSTRUCT {
+    ?unit dct:hasVersion ?unit2 .
+    ?unit2 dct:hasVersion ?unit .
+}
+WHERE {
+    ?unit
+        a ?type ;
+        schema:name ?name .
+    ?unit2
+        a ?type ;
+        schema:name ?name .
+    FILTER(!sameTerm(?unit, ?unit2))
+    FILTER(STRSTARTS(str(?unit), str(lor:)))
+    FILTER(STRSTARTS(str(?unit2), str(lor19:)))
+}

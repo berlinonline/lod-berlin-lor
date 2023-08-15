@@ -50,6 +50,11 @@ body .container {
     padding-top: 10px;
 }
 
+.additional-data tr td:first-child {
+    width: 1px;
+    white-space: nowrap;
+}
+
 /* #local_graph_content .tab-pane {
     margin-top: 15px;
 }

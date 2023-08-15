@@ -1,0 +1,2028 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lor: <https://berlinonline.github.io/lod-berlin-lor/> .
+@prefix lor19: <https://berlinonline.github.io/lod-berlin-lor-2019/> .
+
+lor19:berlin dct:hasVersion lor:berlin .
+
+lor19:bez_01 dct:hasVersion lor:bez_01 .
+
+lor19:bez_02 dct:hasVersion lor:bez_02 .
+
+lor19:bez_03 dct:hasVersion lor:bez_03 .
+
+lor19:bez_04 dct:hasVersion lor:bez_04 .
+
+lor19:bez_05 dct:hasVersion lor:bez_05 .
+
+lor19:bez_06 dct:hasVersion lor:bez_06 .
+
+lor19:bez_07 dct:hasVersion lor:bez_07 .
+
+lor19:bez_08 dct:hasVersion lor:bez_08 .
+
+lor19:bez_09 dct:hasVersion lor:bez_09 .
+
+lor19:bez_10 dct:hasVersion lor:bez_10 .
+
+lor19:bez_11 dct:hasVersion lor:bez_11 .
+
+lor19:bez_12 dct:hasVersion lor:bez_12 .
+
+lor19:bzr_010111 dct:hasVersion lor:bzr_011001 .
+
+lor19:bzr_010112 dct:hasVersion lor:bzr_011002 .
+
+lor19:bzr_010113 dct:hasVersion lor:bzr_011003 .
+
+lor19:bzr_010114 dct:hasVersion lor:bzr_011004 .
+
+lor19:bzr_010221 dct:hasVersion lor:bzr_012005 .
+
+lor19:bzr_010222 dct:hasVersion lor:bzr_012006 .
+
+lor19:bzr_010331 dct:hasVersion lor:bzr_013007 .
+
+lor19:bzr_010332 dct:hasVersion lor:bzr_013008 .
+
+lor19:bzr_010441 dct:hasVersion lor:bzr_014009 .
+
+lor19:bzr_010442 dct:hasVersion lor:bzr_014010 .
+
+lor19:bzr_020202 dct:hasVersion lor:bzr_022002 .
+
+lor19:bzr_020303 dct:hasVersion lor:bzr_023003 .
+
+lor19:bzr_020304 dct:hasVersion lor:bzr_023004 .
+
+lor19:bzr_020405 dct:hasVersion lor:bzr_024005 .
+
+lor19:bzr_020407 dct:hasVersion lor:bzr_024006 .
+
+lor19:bzr_020506 dct:hasVersion lor:bzr_025007 .
+
+lor19:bzr_020508 dct:hasVersion lor:bzr_025008 .
+
+lor19:bzr_030101 dct:hasVersion lor:bzr_031001 .
+
+lor19:bzr_030202 dct:hasVersion lor:bzr_032002 .
+
+lor19:bzr_030203 dct:hasVersion lor:bzr_032003 .
+
+lor19:bzr_030304 dct:hasVersion lor:bzr_033004 .
+
+lor19:bzr_030307 dct:hasVersion lor:bzr_033005 .
+
+lor19:bzr_030405 dct:hasVersion lor:bzr_034006 .
+
+lor19:bzr_030406 dct:hasVersion lor:bzr_034007 .
+
+lor19:bzr_030408 dct:hasVersion lor:bzr_034008 .
+
+lor19:bzr_030509 dct:hasVersion lor:bzr_035009 .
+
+lor19:bzr_030510 dct:hasVersion lor:bzr_035010 .
+
+lor19:bzr_030611 dct:hasVersion lor:bzr_036011 .
+
+lor19:bzr_030612 dct:hasVersion lor:bzr_036012 .
+
+lor19:bzr_030613 dct:hasVersion lor:bzr_036013 .
+
+lor19:bzr_030614 dct:hasVersion lor:bzr_036014 .
+
+lor19:bzr_030715 dct:hasVersion lor:bzr_037015 .
+
+lor19:bzr_030716 dct:hasVersion lor:bzr_037016 .
+
+lor19:bzr_040101 dct:hasVersion lor:bzr_041001 .
+
+lor19:bzr_040203 dct:hasVersion lor:bzr_042003 .
+
+lor19:bzr_040305 dct:hasVersion lor:bzr_043005 .
+
+lor19:bzr_040310 dct:hasVersion lor:bzr_045009 .
+
+lor19:bzr_040411 dct:hasVersion lor:bzr_044007 .
+
+lor19:bzr_040412 dct:hasVersion lor:bzr_044008 .
+
+lor19:bzr_040516 dct:hasVersion lor:bzr_045011 .
+
+lor19:bzr_050101 dct:hasVersion lor:bzr_051001 .
+
+lor19:bzr_050102 dct:hasVersion lor:bzr_051002 .
+
+lor19:bzr_050103 dct:hasVersion lor:bzr_051003 .
+
+lor19:bzr_050204 dct:hasVersion lor:bzr_052004 .
+
+lor19:bzr_050206 dct:hasVersion lor:bzr_052006 .
+
+lor19:bzr_050307 dct:hasVersion lor:bzr_053007 .
+
+lor19:bzr_050308 dct:hasVersion lor:bzr_053008 .
+
+lor19:bzr_050409 dct:hasVersion lor:bzr_054009 .
+
+lor19:bzr_060101 dct:hasVersion lor:bzr_061001 .
+
+lor19:bzr_060102 dct:hasVersion lor:bzr_061002 .
+
+lor19:bzr_060203 dct:hasVersion lor:bzr_062003 .
+
+lor19:bzr_060204 dct:hasVersion lor:bzr_062004 .
+
+lor19:bzr_060305 dct:hasVersion lor:bzr_063005 .
+
+lor19:bzr_060306 dct:hasVersion lor:bzr_063006 .
+
+lor19:bzr_060407 dct:hasVersion lor:bzr_064007 .
+
+lor19:bzr_060408 dct:hasVersion lor:bzr_064008 .
+
+lor19:bzr_080101 dct:hasVersion lor:bzr_081001 .
+
+lor19:bzr_080102 dct:hasVersion lor:bzr_081002 .
+
+lor19:bzr_080103 dct:hasVersion lor:bzr_081003 .
+
+lor19:bzr_080104 dct:hasVersion lor:bzr_081004 .
+
+lor19:bzr_080105 dct:hasVersion lor:bzr_081005 .
+
+lor19:bzr_080206 dct:hasVersion lor:bzr_082007 .
+
+lor19:bzr_080207 dct:hasVersion lor:bzr_082008 .
+
+lor19:bzr_080409 dct:hasVersion lor:bzr_084011 .
+
+lor19:bzr_080410 dct:hasVersion lor:bzr_084012 .
+
+lor19:bzr_090101 dct:hasVersion lor:bzr_091001 .
+
+lor19:bzr_090102 dct:hasVersion lor:bzr_091002 .
+
+lor19:bzr_090103 dct:hasVersion lor:bzr_091003 .
+
+lor19:bzr_090104 dct:hasVersion lor:bzr_091004 .
+
+lor19:bzr_090205 dct:hasVersion lor:bzr_092005 .
+
+lor19:bzr_090206 dct:hasVersion lor:bzr_092006 .
+
+lor19:bzr_090207 dct:hasVersion lor:bzr_092007 .
+
+lor19:bzr_090208 dct:hasVersion lor:bzr_092008 .
+
+lor19:bzr_090309 dct:hasVersion lor:bzr_093009 .
+
+lor19:bzr_090310 dct:hasVersion lor:bzr_093010 .
+
+lor19:bzr_090311 dct:hasVersion lor:bzr_093011 .
+
+lor19:bzr_090413 dct:hasVersion lor:bzr_094013 .
+
+lor19:bzr_090414 dct:hasVersion lor:bzr_094014 .
+
+lor19:bzr_090416 dct:hasVersion lor:bzr_094016 .
+
+lor19:bzr_090517 dct:hasVersion lor:bzr_095017 .
+
+lor19:bzr_090519 dct:hasVersion lor:bzr_095019 .
+
+lor19:bzr_090520 dct:hasVersion lor:bzr_095020 .
+
+lor19:bzr_100101 dct:hasVersion lor:bzr_101001 .
+
+lor19:bzr_100102 dct:hasVersion lor:bzr_101002 .
+
+lor19:bzr_100103 dct:hasVersion lor:bzr_101003 .
+
+lor19:bzr_100204 dct:hasVersion lor:bzr_102004 .
+
+lor19:bzr_100205 dct:hasVersion lor:bzr_102005 .
+
+lor19:bzr_100206 dct:hasVersion lor:bzr_102006 .
+
+lor19:bzr_100307 dct:hasVersion lor:bzr_103007 .
+
+lor19:bzr_100408 dct:hasVersion lor:bzr_104008 .
+
+lor19:bzr_100409 dct:hasVersion lor:bzr_104009 .
+
+lor19:bzr_110101 dct:hasVersion lor:bzr_111001 .
+
+lor19:bzr_110102 dct:hasVersion lor:bzr_111002 .
+
+lor19:bzr_110103 dct:hasVersion lor:bzr_111003 .
+
+lor19:bzr_110204 dct:hasVersion lor:bzr_112004 .
+
+lor19:bzr_110205 dct:hasVersion lor:bzr_112005 .
+
+lor19:bzr_110306 dct:hasVersion lor:bzr_113006 .
+
+lor19:bzr_110307 dct:hasVersion lor:bzr_113007 .
+
+lor19:bzr_110308 dct:hasVersion lor:bzr_113008 .
+
+lor19:bzr_110409 dct:hasVersion lor:bzr_114009 .
+
+lor19:bzr_110410 dct:hasVersion lor:bzr_114010 .
+
+lor19:bzr_110411 dct:hasVersion lor:bzr_114011 .
+
+lor19:bzr_110512 dct:hasVersion lor:bzr_115012 .
+
+lor19:bzr_110513 dct:hasVersion lor:bzr_115013 .
+
+lor19:bzr_122144 dct:hasVersion lor:bzr_122003 .
+
+lor19:bzr_122242 dct:hasVersion lor:bzr_124006 .
+
+lor19:bzr_122311 dct:hasVersion lor:bzr_124007 .
+
+lor19:bzr_123012 dct:hasVersion lor:bzr_125009 .
+
+lor19:bzr_123043 dct:hasVersion lor:bzr_125008 .
+
+lor19:pgr_0101 dct:hasVersion lor:pgr_0110 .
+
+lor19:pgr_0102 dct:hasVersion lor:pgr_0120 .
+
+lor19:pgr_0103 dct:hasVersion lor:pgr_0130 .
+
+lor19:pgr_0104 dct:hasVersion lor:pgr_0140 .
+
+lor19:pgr_0201 dct:hasVersion lor:pgr_0210 .
+
+lor19:pgr_0202 dct:hasVersion lor:pgr_0220 .
+
+lor19:pgr_0203 dct:hasVersion lor:pgr_0230 .
+
+lor19:pgr_0204 dct:hasVersion lor:pgr_0240 .
+
+lor19:pgr_0205 dct:hasVersion lor:pgr_0250 .
+
+lor19:pgr_0301 dct:hasVersion lor:pgr_0310 .
+
+lor19:pgr_0302 dct:hasVersion lor:pgr_0320 .
+
+lor19:pgr_0303 dct:hasVersion lor:pgr_0330 .
+
+lor19:pgr_0304 dct:hasVersion lor:pgr_0340 .
+
+lor19:pgr_0305 dct:hasVersion lor:pgr_0350 .
+
+lor19:pgr_0306 dct:hasVersion lor:pgr_0360 .
+
+lor19:pgr_0307 dct:hasVersion lor:pgr_0370 .
+
+lor19:pgr_0701 dct:hasVersion lor:pgr_0710 .
+
+lor19:pgr_0702 dct:hasVersion lor:pgr_0720 .
+
+lor19:pgr_0703 dct:hasVersion lor:pgr_0730 .
+
+lor19:pgr_0704 dct:hasVersion lor:pgr_0740 .
+
+lor19:pgr_0705 dct:hasVersion lor:pgr_0750 .
+
+lor19:pgr_0801 dct:hasVersion lor:pgr_0810 .
+
+lor19:pgr_0802 dct:hasVersion lor:pgr_0820 .
+
+lor19:pgr_0803 dct:hasVersion lor:pgr_0830 .
+
+lor19:pgr_0804 dct:hasVersion lor:pgr_0840 .
+
+lor19:pgr_0901 dct:hasVersion lor:pgr_0910 .
+
+lor19:pgr_0902 dct:hasVersion lor:pgr_0920 .
+
+lor19:pgr_0903 dct:hasVersion lor:pgr_0930 .
+
+lor19:pgr_0904 dct:hasVersion lor:pgr_0940 .
+
+lor19:pgr_0905 dct:hasVersion lor:pgr_0950 .
+
+lor19:pgr_1001 dct:hasVersion lor:pgr_1010 .
+
+lor19:pgr_1002 dct:hasVersion lor:pgr_1020 .
+
+lor19:pgr_1003 dct:hasVersion lor:pgr_1030 .
+
+lor19:pgr_1004 dct:hasVersion lor:pgr_1040 .
+
+lor19:pgr_1101 dct:hasVersion lor:pgr_1110 .
+
+lor19:pgr_1102 dct:hasVersion lor:pgr_1120 .
+
+lor19:pgr_1103 dct:hasVersion lor:pgr_1130 .
+
+lor19:pgr_1104 dct:hasVersion lor:pgr_1140 .
+
+lor19:pgr_1105 dct:hasVersion lor:pgr_1150 .
+
+lor19:pgr_1210 dct:hasVersion lor:pgr_1210 .
+
+lor19:pgr_1221 dct:hasVersion lor:pgr_1220 .
+
+lor19:plr_01011101 dct:hasVersion lor:plr_01100101 .
+
+lor19:plr_01011102 dct:hasVersion lor:plr_01100102 .
+
+lor19:plr_01011103 dct:hasVersion lor:plr_01100103 .
+
+lor19:plr_01011104 dct:hasVersion lor:plr_01100104 .
+
+lor19:plr_01011201 dct:hasVersion lor:plr_01100205 .
+
+lor19:plr_01011204 dct:hasVersion lor:plr_01100207 .
+
+lor19:plr_01011301 dct:hasVersion lor:plr_01100308 .
+
+lor19:plr_01011302 dct:hasVersion lor:plr_01100309 .
+
+lor19:plr_01011303 dct:hasVersion lor:plr_01100310 .
+
+lor19:plr_01011304 dct:hasVersion lor:plr_01100311 .
+
+lor19:plr_01011305 dct:hasVersion lor:plr_01100312 .
+
+lor19:plr_01011306 dct:hasVersion lor:plr_01100313 .
+
+lor19:plr_01011401 dct:hasVersion lor:plr_01100415 .
+
+lor19:plr_01011402 dct:hasVersion lor:plr_01100416 .
+
+lor19:plr_01022101 dct:hasVersion lor:plr_01200517 .
+
+lor19:plr_01022102 dct:hasVersion lor:plr_01200518 .
+
+lor19:plr_01022104 dct:hasVersion lor:plr_01200519 .
+
+lor19:plr_01022105 dct:hasVersion lor:plr_01200521 .
+
+lor19:plr_01022106 dct:hasVersion lor:plr_01200522 .
+
+lor19:plr_01022201 dct:hasVersion lor:plr_01200623 .
+
+lor19:plr_01022202 dct:hasVersion lor:plr_01200624 .
+
+lor19:plr_01022203 dct:hasVersion lor:plr_01200625 .
+
+lor19:plr_01022204 dct:hasVersion lor:plr_01200626 .
+
+lor19:plr_01022205 dct:hasVersion lor:plr_01200627 .
+
+lor19:plr_01022206 dct:hasVersion lor:plr_01200628 .
+
+lor19:plr_01022207 dct:hasVersion lor:plr_01200629 .
+
+lor19:plr_01033101 dct:hasVersion lor:plr_01300732 .
+
+lor19:plr_01033102 dct:hasVersion lor:plr_01300733 .
+
+lor19:plr_01033201 dct:hasVersion lor:plr_01300834 .
+
+lor19:plr_01033202 dct:hasVersion lor:plr_01300835 .
+
+lor19:plr_01033203 dct:hasVersion lor:plr_01300836 .
+
+lor19:plr_01044102 dct:hasVersion lor:plr_01400940 .
+
+lor19:plr_01044103 dct:hasVersion lor:plr_01400942 .
+
+lor19:plr_01044202 dct:hasVersion lor:plr_01401047 .
+
+lor19:plr_01044203 dct:hasVersion lor:plr_01401048 .
+
+lor19:plr_02010101 dct:hasVersion lor:plr_02100101 .
+
+lor19:plr_02010102 dct:hasVersion lor:plr_02100102 .
+
+lor19:plr_02010103 dct:hasVersion lor:plr_02100104 .
+
+lor19:plr_02010104 dct:hasVersion lor:plr_02100106 .
+
+lor19:plr_02020202 dct:hasVersion lor:plr_02200208 .
+
+lor19:plr_02020203 dct:hasVersion lor:plr_02200209 .
+
+lor19:plr_02020204 dct:hasVersion lor:plr_02200210 .
+
+lor19:plr_02020205 dct:hasVersion lor:plr_02200211 .
+
+lor19:plr_02030301 dct:hasVersion lor:plr_02300314 .
+
+lor19:plr_02030302 dct:hasVersion lor:plr_02300315 .
+
+lor19:plr_02030402 dct:hasVersion lor:plr_02300419 .
+
+lor19:plr_02040501 dct:hasVersion lor:plr_02400520 .
+
+lor19:plr_02040502 dct:hasVersion lor:plr_02400521 .
+
+lor19:plr_02040503 dct:hasVersion lor:plr_02400522 .
+
+lor19:plr_02040701 dct:hasVersion lor:plr_02400623 .
+
+lor19:plr_02040702 dct:hasVersion lor:plr_02400624 .
+
+lor19:plr_02050601 dct:hasVersion lor:plr_02500726 .
+
+lor19:plr_02050602 dct:hasVersion lor:plr_02500728 .
+
+lor19:plr_02050801 dct:hasVersion lor:plr_02500832 .
+
+lor19:plr_02050802 dct:hasVersion lor:plr_02500833 .
+
+lor19:plr_02050803 dct:hasVersion lor:plr_02500835 .
+
+lor19:plr_02050804 dct:hasVersion lor:plr_02500836 .
+
+lor19:plr_03010101 dct:hasVersion lor:plr_03100101 .
+
+lor19:plr_03020203 dct:hasVersion lor:plr_03200204 .
+
+lor19:plr_03020210 dct:hasVersion lor:plr_03200207 .
+
+lor19:plr_03030405 dct:hasVersion lor:plr_03300411 .
+
+lor19:plr_03030711 dct:hasVersion lor:plr_03300514 .
+
+lor19:plr_03030715 dct:hasVersion lor:plr_03300516 .
+
+lor19:plr_03030716 dct:hasVersion lor:plr_03300517 .
+
+lor19:plr_03040508 dct:hasVersion lor:plr_03400618 .
+
+lor19:plr_03040512 dct:hasVersion lor:plr_03400619 .
+
+lor19:plr_03040513 dct:hasVersion lor:plr_03400620 .
+
+lor19:plr_03050920 dct:hasVersion lor:plr_03500933 .
+
+lor19:plr_03050923 dct:hasVersion lor:plr_03500934 .
+
+lor19:plr_03050924 dct:hasVersion lor:plr_03500935 .
+
+lor19:plr_03050925 dct:hasVersion lor:plr_03500936 .
+
+lor19:plr_03051022 dct:hasVersion lor:plr_03501038 .
+
+lor19:plr_03061126 dct:hasVersion lor:plr_03601141 .
+
+lor19:plr_03061131 dct:hasVersion lor:plr_03601142 .
+
+lor19:plr_03061227 dct:hasVersion lor:plr_03601244 .
+
+lor19:plr_03061332 dct:hasVersion lor:plr_03601347 .
+
+lor19:plr_03061430 dct:hasVersion lor:plr_03601450 .
+
+lor19:plr_03061434 dct:hasVersion lor:plr_03601451 .
+
+lor19:plr_03071536 dct:hasVersion lor:plr_03701554 .
+
+lor19:plr_03071537 dct:hasVersion lor:plr_03701556 .
+
+lor19:plr_03071633 dct:hasVersion lor:plr_03701657 .
+
+lor19:plr_03071639 dct:hasVersion lor:plr_03701660 .
+
+lor19:plr_04010103 dct:hasVersion lor:plr_04100102 .
+
+lor19:plr_04020204 dct:hasVersion lor:plr_04200203 .
+
+lor19:plr_04020206 dct:hasVersion lor:plr_04200204 .
+
+lor19:plr_04020207 dct:hasVersion lor:plr_04200205 .
+
+lor19:plr_04020208 dct:hasVersion lor:plr_04200206 .
+
+lor19:plr_04020209 dct:hasVersion lor:plr_04200207 .
+
+lor19:plr_04020312 dct:hasVersion lor:plr_04200308 .
+
+lor19:plr_04020313 dct:hasVersion lor:plr_04200311 .
+
+lor19:plr_04030416 dct:hasVersion lor:plr_04300413 .
+
+lor19:plr_04030518 dct:hasVersion lor:plr_04300517 .
+
+lor19:plr_04030519 dct:hasVersion lor:plr_04300518 .
+
+lor19:plr_04030620 dct:hasVersion lor:plr_04300619 .
+
+lor19:plr_04030621 dct:hasVersion lor:plr_04300620 .
+
+lor19:plr_04030622 dct:hasVersion lor:plr_04300621 .
+
+lor19:plr_04030623 dct:hasVersion lor:plr_04300622 .
+
+lor19:plr_04030724 dct:hasVersion lor:plr_04300415 .
+
+lor19:plr_04030725 dct:hasVersion lor:plr_04300416 .
+
+lor19:plr_04030726 dct:hasVersion lor:plr_04500936 .
+
+lor19:plr_04030827 dct:hasVersion lor:plr_04300623 .
+
+lor19:plr_04030828 dct:hasVersion lor:plr_04300624 .
+
+lor19:plr_04030929 dct:hasVersion lor:plr_04501040 .
+
+lor19:plr_04030930 dct:hasVersion lor:plr_04501041 .
+
+lor19:plr_04030931 dct:hasVersion lor:plr_04501042 .
+
+lor19:plr_04031032 dct:hasVersion lor:plr_04500937 .
+
+lor19:plr_04041133 dct:hasVersion lor:plr_04400725 .
+
+lor19:plr_04041134 dct:hasVersion lor:plr_04400726 .
+
+lor19:plr_04041135 dct:hasVersion lor:plr_04400729 .
+
+lor19:plr_04041136 dct:hasVersion lor:plr_04400728 .
+
+lor19:plr_04041137 dct:hasVersion lor:plr_04400727 .
+
+lor19:plr_04041240 dct:hasVersion lor:plr_04400831 .
+
+lor19:plr_04041241 dct:hasVersion lor:plr_04400832 .
+
+lor19:plr_04041342 dct:hasVersion lor:plr_04400833 .
+
+lor19:plr_04041343 dct:hasVersion lor:plr_04400834 .
+
+lor19:plr_04041344 dct:hasVersion lor:plr_04400835 .
+
+lor19:plr_04051445 dct:hasVersion lor:plr_04500939 .
+
+lor19:plr_04051446 dct:hasVersion lor:plr_04501043 .
+
+lor19:plr_04051447 dct:hasVersion lor:plr_04501044 .
+
+lor19:plr_04051448 dct:hasVersion lor:plr_04501045 .
+
+lor19:plr_04051550 dct:hasVersion lor:plr_04501147 .
+
+lor19:plr_04051551 dct:hasVersion lor:plr_04501148 .
+
+lor19:plr_04051652 dct:hasVersion lor:plr_04501149 .
+
+lor19:plr_04051653 dct:hasVersion lor:plr_04501152 .
+
+lor19:plr_04051654 dct:hasVersion lor:plr_04501150 .
+
+lor19:plr_04051655 dct:hasVersion lor:plr_04501153 .
+
+lor19:plr_04051656 dct:hasVersion lor:plr_04501151 .
+
+lor19:plr_05010101 dct:hasVersion lor:plr_05100101 .
+
+lor19:plr_05010103 dct:hasVersion lor:plr_05100105 .
+
+lor19:plr_05010204 dct:hasVersion lor:plr_05100206 .
+
+lor19:plr_05010205 dct:hasVersion lor:plr_05100207 .
+
+lor19:plr_05010208 dct:hasVersion lor:plr_05100210 .
+
+lor19:plr_05010209 dct:hasVersion lor:plr_05100211 .
+
+lor19:plr_05010310 dct:hasVersion lor:plr_05100312 .
+
+lor19:plr_05010311 dct:hasVersion lor:plr_05100313 .
+
+lor19:plr_05010312 dct:hasVersion lor:plr_05100314 .
+
+lor19:plr_05010313 dct:hasVersion lor:plr_05100315 .
+
+lor19:plr_05010314 dct:hasVersion lor:plr_05100316 .
+
+lor19:plr_05010339 dct:hasVersion lor:plr_05100317 .
+
+lor19:plr_05020415 dct:hasVersion lor:plr_05200418 .
+
+lor19:plr_05020416 dct:hasVersion lor:plr_05200419 .
+
+lor19:plr_05020417 dct:hasVersion lor:plr_05200420 .
+
+lor19:plr_05020418 dct:hasVersion lor:plr_05200421 .
+
+lor19:plr_05020419 dct:hasVersion lor:plr_05200423 .
+
+lor19:plr_05020420 dct:hasVersion lor:plr_05200422 .
+
+lor19:plr_05020521 dct:hasVersion lor:plr_05200524 .
+
+lor19:plr_05020522 dct:hasVersion lor:plr_05200525 .
+
+lor19:plr_05020523 dct:hasVersion lor:plr_05200527 .
+
+lor19:plr_05020524 dct:hasVersion lor:plr_05200528 .
+
+lor19:plr_05020625 dct:hasVersion lor:plr_05200629 .
+
+lor19:plr_05020627 dct:hasVersion lor:plr_05200632 .
+
+lor19:plr_05020628 dct:hasVersion lor:plr_05200633 .
+
+lor19:plr_05020629 dct:hasVersion lor:plr_05200634 .
+
+lor19:plr_05030730 dct:hasVersion lor:plr_05300736 .
+
+lor19:plr_05030731 dct:hasVersion lor:plr_05300737 .
+
+lor19:plr_05030832 dct:hasVersion lor:plr_05300839 .
+
+lor19:plr_05040934 dct:hasVersion lor:plr_05400942 .
+
+lor19:plr_05040936 dct:hasVersion lor:plr_05400943 .
+
+lor19:plr_05040937 dct:hasVersion lor:plr_05400944 .
+
+lor19:plr_05040938 dct:hasVersion lor:plr_05400945 .
+
+lor19:plr_06010101 dct:hasVersion lor:plr_06100101 .
+
+lor19:plr_06010103 dct:hasVersion lor:plr_06100103 .
+
+lor19:plr_06010204 dct:hasVersion lor:plr_06100204 .
+
+lor19:plr_06010205 dct:hasVersion lor:plr_06100205 .
+
+lor19:plr_06010206 dct:hasVersion lor:plr_06100206 .
+
+lor19:plr_06010207 dct:hasVersion lor:plr_06100207 .
+
+lor19:plr_06010208 dct:hasVersion lor:plr_06100208 .
+
+lor19:plr_06010209 dct:hasVersion lor:plr_06100209 .
+
+lor19:plr_06010210 dct:hasVersion lor:plr_06100210 .
+
+lor19:plr_06020301 dct:hasVersion lor:plr_06200311 .
+
+lor19:plr_06020302 dct:hasVersion lor:plr_06200312 .
+
+lor19:plr_06020303 dct:hasVersion lor:plr_06200313 .
+
+lor19:plr_06020304 dct:hasVersion lor:plr_06200314 .
+
+lor19:plr_06020306 dct:hasVersion lor:plr_06200317 .
+
+lor19:plr_06020407 dct:hasVersion lor:plr_06200419 .
+
+lor19:plr_06020408 dct:hasVersion lor:plr_06200420 .
+
+lor19:plr_06020409 dct:hasVersion lor:plr_06200421 .
+
+lor19:plr_06020410 dct:hasVersion lor:plr_06200422 .
+
+lor19:plr_06020411 dct:hasVersion lor:plr_06200423 .
+
+lor19:plr_06030501 dct:hasVersion lor:plr_06300524 .
+
+lor19:plr_06030502 dct:hasVersion lor:plr_06300525 .
+
+lor19:plr_06030503 dct:hasVersion lor:plr_06300526 .
+
+lor19:plr_06030504 dct:hasVersion lor:plr_06300528 .
+
+lor19:plr_06030605 dct:hasVersion lor:plr_06300629 .
+
+lor19:plr_06030606 dct:hasVersion lor:plr_06300630 .
+
+lor19:plr_06030607 dct:hasVersion lor:plr_06300631 .
+
+lor19:plr_06030608 dct:hasVersion lor:plr_06300632 .
+
+lor19:plr_06030609 dct:hasVersion lor:plr_06300633 .
+
+lor19:plr_06030610 dct:hasVersion lor:plr_06300634 .
+
+lor19:plr_06040701 dct:hasVersion lor:plr_06400735 .
+
+lor19:plr_06040702 dct:hasVersion lor:plr_06400736 .
+
+lor19:plr_06040703 dct:hasVersion lor:plr_06400737 .
+
+lor19:plr_06040804 dct:hasVersion lor:plr_06400838 .
+
+lor19:plr_06040805 dct:hasVersion lor:plr_06400839 .
+
+lor19:plr_06040806 dct:hasVersion lor:plr_06400840 .
+
+lor19:plr_06040807 dct:hasVersion lor:plr_06400841 .
+
+lor19:plr_06040808 dct:hasVersion lor:plr_06400842 .
+
+lor19:plr_06040809 dct:hasVersion lor:plr_06400843 .
+
+lor19:plr_06040810 dct:hasVersion lor:plr_06400844 .
+
+lor19:plr_07010103 dct:hasVersion lor:plr_07100204 .
+
+lor19:plr_07020201 dct:hasVersion lor:plr_07200307 .
+
+lor19:plr_07030302 dct:hasVersion lor:plr_07300618 .
+
+lor19:plr_07030303 dct:hasVersion lor:plr_07300619 .
+
+lor19:plr_07040402 dct:hasVersion lor:plr_07400822 .
+
+lor19:plr_07040404 dct:hasVersion lor:plr_07400826 .
+
+lor19:plr_07040405 dct:hasVersion lor:plr_07400927 .
+
+lor19:plr_07040406 dct:hasVersion lor:plr_07400928 .
+
+lor19:plr_07050502 dct:hasVersion lor:plr_07501133 .
+
+lor19:plr_07050503 dct:hasVersion lor:plr_07501031 .
+
+lor19:plr_07050504 dct:hasVersion lor:plr_07501032 .
+
+lor19:plr_07050505 dct:hasVersion lor:plr_07501134 .
+
+lor19:plr_07050506 dct:hasVersion lor:plr_07501135 .
+
+lor19:plr_07060601 dct:hasVersion lor:plr_07601236 .
+
+lor19:plr_07060602 dct:hasVersion lor:plr_07601237 .
+
+lor19:plr_07060603 dct:hasVersion lor:plr_07601238 .
+
+lor19:plr_07070703 dct:hasVersion lor:plr_07601544 .
+
+lor19:plr_07070704 dct:hasVersion lor:plr_07601545 .
+
+lor19:plr_07070707 dct:hasVersion lor:plr_07601548 .
+
+lor19:plr_08010115 dct:hasVersion lor:plr_08100101 .
+
+lor19:plr_08010118 dct:hasVersion lor:plr_08100105 .
+
+lor19:plr_08010211 dct:hasVersion lor:plr_08100206 .
+
+lor19:plr_08010212 dct:hasVersion lor:plr_08100207 .
+
+lor19:plr_08010213 dct:hasVersion lor:plr_08100208 .
+
+lor19:plr_08010214 dct:hasVersion lor:plr_08100209 .
+
+lor19:plr_08010302 dct:hasVersion lor:plr_08100313 .
+
+lor19:plr_08010303 dct:hasVersion lor:plr_08100314 .
+
+lor19:plr_08010405 dct:hasVersion lor:plr_08100418 .
+
+lor19:plr_08010406 dct:hasVersion lor:plr_08100419 .
+
+lor19:plr_08010508 dct:hasVersion lor:plr_08100520 .
+
+lor19:plr_08010509 dct:hasVersion lor:plr_08100521 .
+
+lor19:plr_08020620 dct:hasVersion lor:plr_08200624 .
+
+lor19:plr_08020621 dct:hasVersion lor:plr_08200725 .
+
+lor19:plr_08020623 dct:hasVersion lor:plr_08200728 .
+
+lor19:plr_08020624 dct:hasVersion lor:plr_08200729 .
+
+lor19:plr_08020625 dct:hasVersion lor:plr_08200730 .
+
+lor19:plr_08020726 dct:hasVersion lor:plr_08200831 .
+
+lor19:plr_08020727 dct:hasVersion lor:plr_08200832 .
+
+lor19:plr_08020728 dct:hasVersion lor:plr_08200833 .
+
+lor19:plr_08040932 dct:hasVersion lor:plr_08401138 .
+
+lor19:plr_08040933 dct:hasVersion lor:plr_08401139 .
+
+lor19:plr_08040934 dct:hasVersion lor:plr_08401140 .
+
+lor19:plr_08041035 dct:hasVersion lor:plr_08401241 .
+
+lor19:plr_08041036 dct:hasVersion lor:plr_08401242 .
+
+lor19:plr_08041037 dct:hasVersion lor:plr_08401243 .
+
+lor19:plr_08041038 dct:hasVersion lor:plr_08401244 .
+
+lor19:plr_08041039 dct:hasVersion lor:plr_08401245 .
+
+lor19:plr_08041040 dct:hasVersion lor:plr_08401246 .
+
+lor19:plr_09010302 dct:hasVersion lor:plr_09100306 .
+
+lor19:plr_09010401 dct:hasVersion lor:plr_09100407 .
+
+lor19:plr_09010402 dct:hasVersion lor:plr_09100408 .
+
+lor19:plr_09020602 dct:hasVersion lor:plr_09200614 .
+
+lor19:plr_09020801 dct:hasVersion lor:plr_09200818 .
+
+lor19:plr_09020802 dct:hasVersion lor:plr_09200819 .
+
+lor19:plr_09030901 dct:hasVersion lor:plr_09300920 .
+
+lor19:plr_09030903 dct:hasVersion lor:plr_09300923 .
+
+lor19:plr_09031101 dct:hasVersion lor:plr_09301126 .
+
+lor19:plr_09031201 dct:hasVersion lor:plr_09301227 .
+
+lor19:plr_09031202 dct:hasVersion lor:plr_09301228 .
+
+lor19:plr_09041301 dct:hasVersion lor:plr_09401329 .
+
+lor19:plr_09041302 dct:hasVersion lor:plr_09401330 .
+
+lor19:plr_09041401 dct:hasVersion lor:plr_09401431 .
+
+lor19:plr_09041402 dct:hasVersion lor:plr_09401432 .
+
+lor19:plr_09041403 dct:hasVersion lor:plr_09401433 .
+
+lor19:plr_09041601 dct:hasVersion lor:plr_09401635 .
+
+lor19:plr_09051701 dct:hasVersion lor:plr_09501736 .
+
+lor19:plr_10010101 dct:hasVersion lor:plr_10100101 .
+
+lor19:plr_10010203 dct:hasVersion lor:plr_10100205 .
+
+lor19:plr_10010204 dct:hasVersion lor:plr_10100206 .
+
+lor19:plr_10010207 dct:hasVersion lor:plr_10100210 .
+
+lor19:plr_10010308 dct:hasVersion lor:plr_10100311 .
+
+lor19:plr_10010309 dct:hasVersion lor:plr_10100312 .
+
+lor19:plr_10010310 dct:hasVersion lor:plr_10100313 .
+
+lor19:plr_10010311 dct:hasVersion lor:plr_10100316 .
+
+lor19:plr_10020413 dct:hasVersion lor:plr_10200420 .
+
+lor19:plr_10020414 dct:hasVersion lor:plr_10200421 .
+
+lor19:plr_10020415 dct:hasVersion lor:plr_10200422 .
+
+lor19:plr_10020416 dct:hasVersion lor:plr_10200423 .
+
+lor19:plr_10020517 dct:hasVersion lor:plr_10200524 .
+
+lor19:plr_10020518 dct:hasVersion lor:plr_10200525 .
+
+lor19:plr_10020519 dct:hasVersion lor:plr_10200526 .
+
+lor19:plr_10030724 dct:hasVersion lor:plr_10300731 .
+
+lor19:plr_10030725 dct:hasVersion lor:plr_10300732 .
+
+lor19:plr_10030726 dct:hasVersion lor:plr_10300733 .
+
+lor19:plr_10030727 dct:hasVersion lor:plr_10300734 .
+
+lor19:plr_10040828 dct:hasVersion lor:plr_10400835 .
+
+lor19:plr_10040829 dct:hasVersion lor:plr_10400836 .
+
+lor19:plr_10040830 dct:hasVersion lor:plr_10400837 .
+
+lor19:plr_10040931 dct:hasVersion lor:plr_10400938 .
+
+lor19:plr_10040932 dct:hasVersion lor:plr_10400939 .
+
+lor19:plr_11010103 dct:hasVersion lor:plr_11100102 .
+
+lor19:plr_11010204 dct:hasVersion lor:plr_11100203 .
+
+lor19:plr_11010205 dct:hasVersion lor:plr_11100204 .
+
+lor19:plr_11010206 dct:hasVersion lor:plr_11100205 .
+
+lor19:plr_11010207 dct:hasVersion lor:plr_11100206 .
+
+lor19:plr_11010308 dct:hasVersion lor:plr_11100307 .
+
+lor19:plr_11010309 dct:hasVersion lor:plr_11100308 .
+
+lor19:plr_11010310 dct:hasVersion lor:plr_11100309 .
+
+lor19:plr_11020411 dct:hasVersion lor:plr_11200410 .
+
+lor19:plr_11020412 dct:hasVersion lor:plr_11200411 .
+
+lor19:plr_11020513 dct:hasVersion lor:plr_11200512 .
+
+lor19:plr_11020514 dct:hasVersion lor:plr_11200513 .
+
+lor19:plr_11020515 dct:hasVersion lor:plr_11200514 .
+
+lor19:plr_11020516 dct:hasVersion lor:plr_11200515 .
+
+lor19:plr_11030619 dct:hasVersion lor:plr_11300620 .
+
+lor19:plr_11030720 dct:hasVersion lor:plr_11300721 .
+
+lor19:plr_11030824 dct:hasVersion lor:plr_11300826 .
+
+lor19:plr_11040925 dct:hasVersion lor:plr_11400927 .
+
+lor19:plr_11041022 dct:hasVersion lor:plr_11401032 .
+
+lor19:plr_11041023 dct:hasVersion lor:plr_11401033 .
+
+lor19:plr_11041027 dct:hasVersion lor:plr_11401034 .
+
+lor19:plr_11051229 dct:hasVersion lor:plr_11501238 .
+
+lor19:plr_11051330 dct:hasVersion lor:plr_11501339 .
+
+lor19:plr_11051331 dct:hasVersion lor:plr_11501340 .
+
+lor19:plr_11051332 dct:hasVersion lor:plr_11501341 .
+
+lor19:plr_12103115 dct:hasVersion lor:plr_12100103 .
+
+lor19:plr_12103116 dct:hasVersion lor:plr_12100102 .
+
+lor19:plr_12103117 dct:hasVersion lor:plr_12100101 .
+
+lor19:plr_12103218 dct:hasVersion lor:plr_12100205 .
+
+lor19:plr_12103219 dct:hasVersion lor:plr_12100204 .
+
+lor19:plr_12103220 dct:hasVersion lor:plr_12100206 .
+
+lor19:plr_12214125 dct:hasVersion lor:plr_12200412 .
+
+lor19:plr_12214126 dct:hasVersion lor:plr_12200413 .
+
+lor19:plr_12214421 dct:hasVersion lor:plr_12200307 .
+
+lor19:plr_12214422 dct:hasVersion lor:plr_12200310 .
+
+lor19:plr_12214424 dct:hasVersion lor:plr_12200309 .
+
+lor19:plr_12214527 dct:hasVersion lor:plr_12200515 .
+
+lor19:plr_12224229 dct:hasVersion lor:plr_12400616 .
+
+lor19:plr_12224230 dct:hasVersion lor:plr_12400619 .
+
+lor19:plr_12301203 dct:hasVersion lor:plr_12500930 .
+
+lor19:plr_12301204 dct:hasVersion lor:plr_12500927 .
+
+lor19:plr_12301205 dct:hasVersion lor:plr_12500928 .
+
+lor19:plr_12301206 dct:hasVersion lor:plr_12500929 .
+
+lor19:plr_12302107 dct:hasVersion lor:plr_12601236 .
+
+lor19:plr_12302108 dct:hasVersion lor:plr_12601134 .
+
+lor19:plr_12302109 dct:hasVersion lor:plr_12601133 .
+
+lor19:plr_12302110 dct:hasVersion lor:plr_12601235 .
+
+lor19:plr_12302211 dct:hasVersion lor:plr_12601031 .
+
+lor19:plr_12302212 dct:hasVersion lor:plr_12601032 .
+
+lor19:plr_12304313 dct:hasVersion lor:plr_12500825 .
+
+lor19:plr_12304314 dct:hasVersion lor:plr_12500824 .
+
+lor:berlin dct:hasVersion lor19:berlin .
+
+lor:bez_01 dct:hasVersion lor19:bez_01 .
+
+lor:bez_02 dct:hasVersion lor19:bez_02 .
+
+lor:bez_03 dct:hasVersion lor19:bez_03 .
+
+lor:bez_04 dct:hasVersion lor19:bez_04 .
+
+lor:bez_05 dct:hasVersion lor19:bez_05 .
+
+lor:bez_06 dct:hasVersion lor19:bez_06 .
+
+lor:bez_07 dct:hasVersion lor19:bez_07 .
+
+lor:bez_08 dct:hasVersion lor19:bez_08 .
+
+lor:bez_09 dct:hasVersion lor19:bez_09 .
+
+lor:bez_10 dct:hasVersion lor19:bez_10 .
+
+lor:bez_11 dct:hasVersion lor19:bez_11 .
+
+lor:bez_12 dct:hasVersion lor19:bez_12 .
+
+lor:bzr_011001 dct:hasVersion lor19:bzr_010111 .
+
+lor:bzr_011002 dct:hasVersion lor19:bzr_010112 .
+
+lor:bzr_011003 dct:hasVersion lor19:bzr_010113 .
+
+lor:bzr_011004 dct:hasVersion lor19:bzr_010114 .
+
+lor:bzr_012005 dct:hasVersion lor19:bzr_010221 .
+
+lor:bzr_012006 dct:hasVersion lor19:bzr_010222 .
+
+lor:bzr_013007 dct:hasVersion lor19:bzr_010331 .
+
+lor:bzr_013008 dct:hasVersion lor19:bzr_010332 .
+
+lor:bzr_014009 dct:hasVersion lor19:bzr_010441 .
+
+lor:bzr_014010 dct:hasVersion lor19:bzr_010442 .
+
+lor:bzr_022002 dct:hasVersion lor19:bzr_020202 .
+
+lor:bzr_023003 dct:hasVersion lor19:bzr_020303 .
+
+lor:bzr_023004 dct:hasVersion lor19:bzr_020304 .
+
+lor:bzr_024005 dct:hasVersion lor19:bzr_020405 .
+
+lor:bzr_024006 dct:hasVersion lor19:bzr_020407 .
+
+lor:bzr_025007 dct:hasVersion lor19:bzr_020506 .
+
+lor:bzr_025008 dct:hasVersion lor19:bzr_020508 .
+
+lor:bzr_031001 dct:hasVersion lor19:bzr_030101 .
+
+lor:bzr_032002 dct:hasVersion lor19:bzr_030202 .
+
+lor:bzr_032003 dct:hasVersion lor19:bzr_030203 .
+
+lor:bzr_033004 dct:hasVersion lor19:bzr_030304 .
+
+lor:bzr_033005 dct:hasVersion lor19:bzr_030307 .
+
+lor:bzr_034006 dct:hasVersion lor19:bzr_030405 .
+
+lor:bzr_034007 dct:hasVersion lor19:bzr_030406 .
+
+lor:bzr_034008 dct:hasVersion lor19:bzr_030408 .
+
+lor:bzr_035009 dct:hasVersion lor19:bzr_030509 .
+
+lor:bzr_035010 dct:hasVersion lor19:bzr_030510 .
+
+lor:bzr_036011 dct:hasVersion lor19:bzr_030611 .
+
+lor:bzr_036012 dct:hasVersion lor19:bzr_030612 .
+
+lor:bzr_036013 dct:hasVersion lor19:bzr_030613 .
+
+lor:bzr_036014 dct:hasVersion lor19:bzr_030614 .
+
+lor:bzr_037015 dct:hasVersion lor19:bzr_030715 .
+
+lor:bzr_037016 dct:hasVersion lor19:bzr_030716 .
+
+lor:bzr_041001 dct:hasVersion lor19:bzr_040101 .
+
+lor:bzr_042003 dct:hasVersion lor19:bzr_040203 .
+
+lor:bzr_043005 dct:hasVersion lor19:bzr_040305 .
+
+lor:bzr_044007 dct:hasVersion lor19:bzr_040411 .
+
+lor:bzr_044008 dct:hasVersion lor19:bzr_040412 .
+
+lor:bzr_045009 dct:hasVersion lor19:bzr_040310 .
+
+lor:bzr_045011 dct:hasVersion lor19:bzr_040516 .
+
+lor:bzr_051001 dct:hasVersion lor19:bzr_050101 .
+
+lor:bzr_051002 dct:hasVersion lor19:bzr_050102 .
+
+lor:bzr_051003 dct:hasVersion lor19:bzr_050103 .
+
+lor:bzr_052004 dct:hasVersion lor19:bzr_050204 .
+
+lor:bzr_052006 dct:hasVersion lor19:bzr_050206 .
+
+lor:bzr_053007 dct:hasVersion lor19:bzr_050307 .
+
+lor:bzr_053008 dct:hasVersion lor19:bzr_050308 .
+
+lor:bzr_054009 dct:hasVersion lor19:bzr_050409 .
+
+lor:bzr_061001 dct:hasVersion lor19:bzr_060101 .
+
+lor:bzr_061002 dct:hasVersion lor19:bzr_060102 .
+
+lor:bzr_062003 dct:hasVersion lor19:bzr_060203 .
+
+lor:bzr_062004 dct:hasVersion lor19:bzr_060204 .
+
+lor:bzr_063005 dct:hasVersion lor19:bzr_060305 .
+
+lor:bzr_063006 dct:hasVersion lor19:bzr_060306 .
+
+lor:bzr_064007 dct:hasVersion lor19:bzr_060407 .
+
+lor:bzr_064008 dct:hasVersion lor19:bzr_060408 .
+
+lor:bzr_081001 dct:hasVersion lor19:bzr_080101 .
+
+lor:bzr_081002 dct:hasVersion lor19:bzr_080102 .
+
+lor:bzr_081003 dct:hasVersion lor19:bzr_080103 .
+
+lor:bzr_081004 dct:hasVersion lor19:bzr_080104 .
+
+lor:bzr_081005 dct:hasVersion lor19:bzr_080105 .
+
+lor:bzr_082007 dct:hasVersion lor19:bzr_080206 .
+
+lor:bzr_082008 dct:hasVersion lor19:bzr_080207 .
+
+lor:bzr_084011 dct:hasVersion lor19:bzr_080409 .
+
+lor:bzr_084012 dct:hasVersion lor19:bzr_080410 .
+
+lor:bzr_091001 dct:hasVersion lor19:bzr_090101 .
+
+lor:bzr_091002 dct:hasVersion lor19:bzr_090102 .
+
+lor:bzr_091003 dct:hasVersion lor19:bzr_090103 .
+
+lor:bzr_091004 dct:hasVersion lor19:bzr_090104 .
+
+lor:bzr_092005 dct:hasVersion lor19:bzr_090205 .
+
+lor:bzr_092006 dct:hasVersion lor19:bzr_090206 .
+
+lor:bzr_092007 dct:hasVersion lor19:bzr_090207 .
+
+lor:bzr_092008 dct:hasVersion lor19:bzr_090208 .
+
+lor:bzr_093009 dct:hasVersion lor19:bzr_090309 .
+
+lor:bzr_093010 dct:hasVersion lor19:bzr_090310 .
+
+lor:bzr_093011 dct:hasVersion lor19:bzr_090311 .
+
+lor:bzr_094013 dct:hasVersion lor19:bzr_090413 .
+
+lor:bzr_094014 dct:hasVersion lor19:bzr_090414 .
+
+lor:bzr_094016 dct:hasVersion lor19:bzr_090416 .
+
+lor:bzr_095017 dct:hasVersion lor19:bzr_090517 .
+
+lor:bzr_095019 dct:hasVersion lor19:bzr_090519 .
+
+lor:bzr_095020 dct:hasVersion lor19:bzr_090520 .
+
+lor:bzr_101001 dct:hasVersion lor19:bzr_100101 .
+
+lor:bzr_101002 dct:hasVersion lor19:bzr_100102 .
+
+lor:bzr_101003 dct:hasVersion lor19:bzr_100103 .
+
+lor:bzr_102004 dct:hasVersion lor19:bzr_100204 .
+
+lor:bzr_102005 dct:hasVersion lor19:bzr_100205 .
+
+lor:bzr_102006 dct:hasVersion lor19:bzr_100206 .
+
+lor:bzr_103007 dct:hasVersion lor19:bzr_100307 .
+
+lor:bzr_104008 dct:hasVersion lor19:bzr_100408 .
+
+lor:bzr_104009 dct:hasVersion lor19:bzr_100409 .
+
+lor:bzr_111001 dct:hasVersion lor19:bzr_110101 .
+
+lor:bzr_111002 dct:hasVersion lor19:bzr_110102 .
+
+lor:bzr_111003 dct:hasVersion lor19:bzr_110103 .
+
+lor:bzr_112004 dct:hasVersion lor19:bzr_110204 .
+
+lor:bzr_112005 dct:hasVersion lor19:bzr_110205 .
+
+lor:bzr_113006 dct:hasVersion lor19:bzr_110306 .
+
+lor:bzr_113007 dct:hasVersion lor19:bzr_110307 .
+
+lor:bzr_113008 dct:hasVersion lor19:bzr_110308 .
+
+lor:bzr_114009 dct:hasVersion lor19:bzr_110409 .
+
+lor:bzr_114010 dct:hasVersion lor19:bzr_110410 .
+
+lor:bzr_114011 dct:hasVersion lor19:bzr_110411 .
+
+lor:bzr_115012 dct:hasVersion lor19:bzr_110512 .
+
+lor:bzr_115013 dct:hasVersion lor19:bzr_110513 .
+
+lor:bzr_122003 dct:hasVersion lor19:bzr_122144 .
+
+lor:bzr_124006 dct:hasVersion lor19:bzr_122242 .
+
+lor:bzr_124007 dct:hasVersion lor19:bzr_122311 .
+
+lor:bzr_125008 dct:hasVersion lor19:bzr_123043 .
+
+lor:bzr_125009 dct:hasVersion lor19:bzr_123012 .
+
+lor:pgr_0110 dct:hasVersion lor19:pgr_0101 .
+
+lor:pgr_0120 dct:hasVersion lor19:pgr_0102 .
+
+lor:pgr_0130 dct:hasVersion lor19:pgr_0103 .
+
+lor:pgr_0140 dct:hasVersion lor19:pgr_0104 .
+
+lor:pgr_0210 dct:hasVersion lor19:pgr_0201 .
+
+lor:pgr_0220 dct:hasVersion lor19:pgr_0202 .
+
+lor:pgr_0230 dct:hasVersion lor19:pgr_0203 .
+
+lor:pgr_0240 dct:hasVersion lor19:pgr_0204 .
+
+lor:pgr_0250 dct:hasVersion lor19:pgr_0205 .
+
+lor:pgr_0310 dct:hasVersion lor19:pgr_0301 .
+
+lor:pgr_0320 dct:hasVersion lor19:pgr_0302 .
+
+lor:pgr_0330 dct:hasVersion lor19:pgr_0303 .
+
+lor:pgr_0340 dct:hasVersion lor19:pgr_0304 .
+
+lor:pgr_0350 dct:hasVersion lor19:pgr_0305 .
+
+lor:pgr_0360 dct:hasVersion lor19:pgr_0306 .
+
+lor:pgr_0370 dct:hasVersion lor19:pgr_0307 .
+
+lor:pgr_0710 dct:hasVersion lor19:pgr_0701 .
+
+lor:pgr_0720 dct:hasVersion lor19:pgr_0702 .
+
+lor:pgr_0730 dct:hasVersion lor19:pgr_0703 .
+
+lor:pgr_0740 dct:hasVersion lor19:pgr_0704 .
+
+lor:pgr_0750 dct:hasVersion lor19:pgr_0705 .
+
+lor:pgr_0810 dct:hasVersion lor19:pgr_0801 .
+
+lor:pgr_0820 dct:hasVersion lor19:pgr_0802 .
+
+lor:pgr_0830 dct:hasVersion lor19:pgr_0803 .
+
+lor:pgr_0840 dct:hasVersion lor19:pgr_0804 .
+
+lor:pgr_0910 dct:hasVersion lor19:pgr_0901 .
+
+lor:pgr_0920 dct:hasVersion lor19:pgr_0902 .
+
+lor:pgr_0930 dct:hasVersion lor19:pgr_0903 .
+
+lor:pgr_0940 dct:hasVersion lor19:pgr_0904 .
+
+lor:pgr_0950 dct:hasVersion lor19:pgr_0905 .
+
+lor:pgr_1010 dct:hasVersion lor19:pgr_1001 .
+
+lor:pgr_1020 dct:hasVersion lor19:pgr_1002 .
+
+lor:pgr_1030 dct:hasVersion lor19:pgr_1003 .
+
+lor:pgr_1040 dct:hasVersion lor19:pgr_1004 .
+
+lor:pgr_1110 dct:hasVersion lor19:pgr_1101 .
+
+lor:pgr_1120 dct:hasVersion lor19:pgr_1102 .
+
+lor:pgr_1130 dct:hasVersion lor19:pgr_1103 .
+
+lor:pgr_1140 dct:hasVersion lor19:pgr_1104 .
+
+lor:pgr_1150 dct:hasVersion lor19:pgr_1105 .
+
+lor:pgr_1210 dct:hasVersion lor19:pgr_1210 .
+
+lor:pgr_1220 dct:hasVersion lor19:pgr_1221 .
+
+lor:plr_01100101 dct:hasVersion lor19:plr_01011101 .
+
+lor:plr_01100102 dct:hasVersion lor19:plr_01011102 .
+
+lor:plr_01100103 dct:hasVersion lor19:plr_01011103 .
+
+lor:plr_01100104 dct:hasVersion lor19:plr_01011104 .
+
+lor:plr_01100205 dct:hasVersion lor19:plr_01011201 .
+
+lor:plr_01100207 dct:hasVersion lor19:plr_01011204 .
+
+lor:plr_01100308 dct:hasVersion lor19:plr_01011301 .
+
+lor:plr_01100309 dct:hasVersion lor19:plr_01011302 .
+
+lor:plr_01100310 dct:hasVersion lor19:plr_01011303 .
+
+lor:plr_01100311 dct:hasVersion lor19:plr_01011304 .
+
+lor:plr_01100312 dct:hasVersion lor19:plr_01011305 .
+
+lor:plr_01100313 dct:hasVersion lor19:plr_01011306 .
+
+lor:plr_01100415 dct:hasVersion lor19:plr_01011401 .
+
+lor:plr_01100416 dct:hasVersion lor19:plr_01011402 .
+
+lor:plr_01200517 dct:hasVersion lor19:plr_01022101 .
+
+lor:plr_01200518 dct:hasVersion lor19:plr_01022102 .
+
+lor:plr_01200519 dct:hasVersion lor19:plr_01022104 .
+
+lor:plr_01200521 dct:hasVersion lor19:plr_01022105 .
+
+lor:plr_01200522 dct:hasVersion lor19:plr_01022106 .
+
+lor:plr_01200623 dct:hasVersion lor19:plr_01022201 .
+
+lor:plr_01200624 dct:hasVersion lor19:plr_01022202 .
+
+lor:plr_01200625 dct:hasVersion lor19:plr_01022203 .
+
+lor:plr_01200626 dct:hasVersion lor19:plr_01022204 .
+
+lor:plr_01200627 dct:hasVersion lor19:plr_01022205 .
+
+lor:plr_01200628 dct:hasVersion lor19:plr_01022206 .
+
+lor:plr_01200629 dct:hasVersion lor19:plr_01022207 .
+
+lor:plr_01300732 dct:hasVersion lor19:plr_01033101 .
+
+lor:plr_01300733 dct:hasVersion lor19:plr_01033102 .
+
+lor:plr_01300834 dct:hasVersion lor19:plr_01033201 .
+
+lor:plr_01300835 dct:hasVersion lor19:plr_01033202 .
+
+lor:plr_01300836 dct:hasVersion lor19:plr_01033203 .
+
+lor:plr_01400940 dct:hasVersion lor19:plr_01044102 .
+
+lor:plr_01400942 dct:hasVersion lor19:plr_01044103 .
+
+lor:plr_01401047 dct:hasVersion lor19:plr_01044202 .
+
+lor:plr_01401048 dct:hasVersion lor19:plr_01044203 .
+
+lor:plr_02100101 dct:hasVersion lor19:plr_02010101 .
+
+lor:plr_02100102 dct:hasVersion lor19:plr_02010102 .
+
+lor:plr_02100104 dct:hasVersion lor19:plr_02010103 .
+
+lor:plr_02100106 dct:hasVersion lor19:plr_02010104 .
+
+lor:plr_02200208 dct:hasVersion lor19:plr_02020202 .
+
+lor:plr_02200209 dct:hasVersion lor19:plr_02020203 .
+
+lor:plr_02200210 dct:hasVersion lor19:plr_02020204 .
+
+lor:plr_02200211 dct:hasVersion lor19:plr_02020205 .
+
+lor:plr_02300314 dct:hasVersion lor19:plr_02030301 .
+
+lor:plr_02300315 dct:hasVersion lor19:plr_02030302 .
+
+lor:plr_02300419 dct:hasVersion lor19:plr_02030402 .
+
+lor:plr_02400520 dct:hasVersion lor19:plr_02040501 .
+
+lor:plr_02400521 dct:hasVersion lor19:plr_02040502 .
+
+lor:plr_02400522 dct:hasVersion lor19:plr_02040503 .
+
+lor:plr_02400623 dct:hasVersion lor19:plr_02040701 .
+
+lor:plr_02400624 dct:hasVersion lor19:plr_02040702 .
+
+lor:plr_02500726 dct:hasVersion lor19:plr_02050601 .
+
+lor:plr_02500728 dct:hasVersion lor19:plr_02050602 .
+
+lor:plr_02500832 dct:hasVersion lor19:plr_02050801 .
+
+lor:plr_02500833 dct:hasVersion lor19:plr_02050802 .
+
+lor:plr_02500835 dct:hasVersion lor19:plr_02050803 .
+
+lor:plr_02500836 dct:hasVersion lor19:plr_02050804 .
+
+lor:plr_03100101 dct:hasVersion lor19:plr_03010101 .
+
+lor:plr_03200204 dct:hasVersion lor19:plr_03020203 .
+
+lor:plr_03200207 dct:hasVersion lor19:plr_03020210 .
+
+lor:plr_03300411 dct:hasVersion lor19:plr_03030405 .
+
+lor:plr_03300514 dct:hasVersion lor19:plr_03030711 .
+
+lor:plr_03300516 dct:hasVersion lor19:plr_03030715 .
+
+lor:plr_03300517 dct:hasVersion lor19:plr_03030716 .
+
+lor:plr_03400618 dct:hasVersion lor19:plr_03040508 .
+
+lor:plr_03400619 dct:hasVersion lor19:plr_03040512 .
+
+lor:plr_03400620 dct:hasVersion lor19:plr_03040513 .
+
+lor:plr_03500933 dct:hasVersion lor19:plr_03050920 .
+
+lor:plr_03500934 dct:hasVersion lor19:plr_03050923 .
+
+lor:plr_03500935 dct:hasVersion lor19:plr_03050924 .
+
+lor:plr_03500936 dct:hasVersion lor19:plr_03050925 .
+
+lor:plr_03501038 dct:hasVersion lor19:plr_03051022 .
+
+lor:plr_03601141 dct:hasVersion lor19:plr_03061126 .
+
+lor:plr_03601142 dct:hasVersion lor19:plr_03061131 .
+
+lor:plr_03601244 dct:hasVersion lor19:plr_03061227 .
+
+lor:plr_03601347 dct:hasVersion lor19:plr_03061332 .
+
+lor:plr_03601450 dct:hasVersion lor19:plr_03061430 .
+
+lor:plr_03601451 dct:hasVersion lor19:plr_03061434 .
+
+lor:plr_03701554 dct:hasVersion lor19:plr_03071536 .
+
+lor:plr_03701556 dct:hasVersion lor19:plr_03071537 .
+
+lor:plr_03701657 dct:hasVersion lor19:plr_03071633 .
+
+lor:plr_03701660 dct:hasVersion lor19:plr_03071639 .
+
+lor:plr_04100102 dct:hasVersion lor19:plr_04010103 .
+
+lor:plr_04200203 dct:hasVersion lor19:plr_04020204 .
+
+lor:plr_04200204 dct:hasVersion lor19:plr_04020206 .
+
+lor:plr_04200205 dct:hasVersion lor19:plr_04020207 .
+
+lor:plr_04200206 dct:hasVersion lor19:plr_04020208 .
+
+lor:plr_04200207 dct:hasVersion lor19:plr_04020209 .
+
+lor:plr_04200308 dct:hasVersion lor19:plr_04020312 .
+
+lor:plr_04200311 dct:hasVersion lor19:plr_04020313 .
+
+lor:plr_04300413 dct:hasVersion lor19:plr_04030416 .
+
+lor:plr_04300415 dct:hasVersion lor19:plr_04030724 .
+
+lor:plr_04300416 dct:hasVersion lor19:plr_04030725 .
+
+lor:plr_04300517 dct:hasVersion lor19:plr_04030518 .
+
+lor:plr_04300518 dct:hasVersion lor19:plr_04030519 .
+
+lor:plr_04300619 dct:hasVersion lor19:plr_04030620 .
+
+lor:plr_04300620 dct:hasVersion lor19:plr_04030621 .
+
+lor:plr_04300621 dct:hasVersion lor19:plr_04030622 .
+
+lor:plr_04300622 dct:hasVersion lor19:plr_04030623 .
+
+lor:plr_04300623 dct:hasVersion lor19:plr_04030827 .
+
+lor:plr_04300624 dct:hasVersion lor19:plr_04030828 .
+
+lor:plr_04400725 dct:hasVersion lor19:plr_04041133 .
+
+lor:plr_04400726 dct:hasVersion lor19:plr_04041134 .
+
+lor:plr_04400727 dct:hasVersion lor19:plr_04041137 .
+
+lor:plr_04400728 dct:hasVersion lor19:plr_04041136 .
+
+lor:plr_04400729 dct:hasVersion lor19:plr_04041135 .
+
+lor:plr_04400831 dct:hasVersion lor19:plr_04041240 .
+
+lor:plr_04400832 dct:hasVersion lor19:plr_04041241 .
+
+lor:plr_04400833 dct:hasVersion lor19:plr_04041342 .
+
+lor:plr_04400834 dct:hasVersion lor19:plr_04041343 .
+
+lor:plr_04400835 dct:hasVersion lor19:plr_04041344 .
+
+lor:plr_04500936 dct:hasVersion lor19:plr_04030726 .
+
+lor:plr_04500937 dct:hasVersion lor19:plr_04031032 .
+
+lor:plr_04500939 dct:hasVersion lor19:plr_04051445 .
+
+lor:plr_04501040 dct:hasVersion lor19:plr_04030929 .
+
+lor:plr_04501041 dct:hasVersion lor19:plr_04030930 .
+
+lor:plr_04501042 dct:hasVersion lor19:plr_04030931 .
+
+lor:plr_04501043 dct:hasVersion lor19:plr_04051446 .
+
+lor:plr_04501044 dct:hasVersion lor19:plr_04051447 .
+
+lor:plr_04501045 dct:hasVersion lor19:plr_04051448 .
+
+lor:plr_04501147 dct:hasVersion lor19:plr_04051550 .
+
+lor:plr_04501148 dct:hasVersion lor19:plr_04051551 .
+
+lor:plr_04501149 dct:hasVersion lor19:plr_04051652 .
+
+lor:plr_04501150 dct:hasVersion lor19:plr_04051654 .
+
+lor:plr_04501151 dct:hasVersion lor19:plr_04051656 .
+
+lor:plr_04501152 dct:hasVersion lor19:plr_04051653 .
+
+lor:plr_04501153 dct:hasVersion lor19:plr_04051655 .
+
+lor:plr_05100101 dct:hasVersion lor19:plr_05010101 .
+
+lor:plr_05100105 dct:hasVersion lor19:plr_05010103 .
+
+lor:plr_05100206 dct:hasVersion lor19:plr_05010204 .
+
+lor:plr_05100207 dct:hasVersion lor19:plr_05010205 .
+
+lor:plr_05100210 dct:hasVersion lor19:plr_05010208 .
+
+lor:plr_05100211 dct:hasVersion lor19:plr_05010209 .
+
+lor:plr_05100312 dct:hasVersion lor19:plr_05010310 .
+
+lor:plr_05100313 dct:hasVersion lor19:plr_05010311 .
+
+lor:plr_05100314 dct:hasVersion lor19:plr_05010312 .
+
+lor:plr_05100315 dct:hasVersion lor19:plr_05010313 .
+
+lor:plr_05100316 dct:hasVersion lor19:plr_05010314 .
+
+lor:plr_05100317 dct:hasVersion lor19:plr_05010339 .
+
+lor:plr_05200418 dct:hasVersion lor19:plr_05020415 .
+
+lor:plr_05200419 dct:hasVersion lor19:plr_05020416 .
+
+lor:plr_05200420 dct:hasVersion lor19:plr_05020417 .
+
+lor:plr_05200421 dct:hasVersion lor19:plr_05020418 .
+
+lor:plr_05200422 dct:hasVersion lor19:plr_05020420 .
+
+lor:plr_05200423 dct:hasVersion lor19:plr_05020419 .
+
+lor:plr_05200524 dct:hasVersion lor19:plr_05020521 .
+
+lor:plr_05200525 dct:hasVersion lor19:plr_05020522 .
+
+lor:plr_05200527 dct:hasVersion lor19:plr_05020523 .
+
+lor:plr_05200528 dct:hasVersion lor19:plr_05020524 .
+
+lor:plr_05200629 dct:hasVersion lor19:plr_05020625 .
+
+lor:plr_05200632 dct:hasVersion lor19:plr_05020627 .
+
+lor:plr_05200633 dct:hasVersion lor19:plr_05020628 .
+
+lor:plr_05200634 dct:hasVersion lor19:plr_05020629 .
+
+lor:plr_05300736 dct:hasVersion lor19:plr_05030730 .
+
+lor:plr_05300737 dct:hasVersion lor19:plr_05030731 .
+
+lor:plr_05300839 dct:hasVersion lor19:plr_05030832 .
+
+lor:plr_05400942 dct:hasVersion lor19:plr_05040934 .
+
+lor:plr_05400943 dct:hasVersion lor19:plr_05040936 .
+
+lor:plr_05400944 dct:hasVersion lor19:plr_05040937 .
+
+lor:plr_05400945 dct:hasVersion lor19:plr_05040938 .
+
+lor:plr_06100101 dct:hasVersion lor19:plr_06010101 .
+
+lor:plr_06100103 dct:hasVersion lor19:plr_06010103 .
+
+lor:plr_06100204 dct:hasVersion lor19:plr_06010204 .
+
+lor:plr_06100205 dct:hasVersion lor19:plr_06010205 .
+
+lor:plr_06100206 dct:hasVersion lor19:plr_06010206 .
+
+lor:plr_06100207 dct:hasVersion lor19:plr_06010207 .
+
+lor:plr_06100208 dct:hasVersion lor19:plr_06010208 .
+
+lor:plr_06100209 dct:hasVersion lor19:plr_06010209 .
+
+lor:plr_06100210 dct:hasVersion lor19:plr_06010210 .
+
+lor:plr_06200311 dct:hasVersion lor19:plr_06020301 .
+
+lor:plr_06200312 dct:hasVersion lor19:plr_06020302 .
+
+lor:plr_06200313 dct:hasVersion lor19:plr_06020303 .
+
+lor:plr_06200314 dct:hasVersion lor19:plr_06020304 .
+
+lor:plr_06200317 dct:hasVersion lor19:plr_06020306 .
+
+lor:plr_06200419 dct:hasVersion lor19:plr_06020407 .
+
+lor:plr_06200420 dct:hasVersion lor19:plr_06020408 .
+
+lor:plr_06200421 dct:hasVersion lor19:plr_06020409 .
+
+lor:plr_06200422 dct:hasVersion lor19:plr_06020410 .
+
+lor:plr_06200423 dct:hasVersion lor19:plr_06020411 .
+
+lor:plr_06300524 dct:hasVersion lor19:plr_06030501 .
+
+lor:plr_06300525 dct:hasVersion lor19:plr_06030502 .
+
+lor:plr_06300526 dct:hasVersion lor19:plr_06030503 .
+
+lor:plr_06300528 dct:hasVersion lor19:plr_06030504 .
+
+lor:plr_06300629 dct:hasVersion lor19:plr_06030605 .
+
+lor:plr_06300630 dct:hasVersion lor19:plr_06030606 .
+
+lor:plr_06300631 dct:hasVersion lor19:plr_06030607 .
+
+lor:plr_06300632 dct:hasVersion lor19:plr_06030608 .
+
+lor:plr_06300633 dct:hasVersion lor19:plr_06030609 .
+
+lor:plr_06300634 dct:hasVersion lor19:plr_06030610 .
+
+lor:plr_06400735 dct:hasVersion lor19:plr_06040701 .
+
+lor:plr_06400736 dct:hasVersion lor19:plr_06040702 .
+
+lor:plr_06400737 dct:hasVersion lor19:plr_06040703 .
+
+lor:plr_06400838 dct:hasVersion lor19:plr_06040804 .
+
+lor:plr_06400839 dct:hasVersion lor19:plr_06040805 .
+
+lor:plr_06400840 dct:hasVersion lor19:plr_06040806 .
+
+lor:plr_06400841 dct:hasVersion lor19:plr_06040807 .
+
+lor:plr_06400842 dct:hasVersion lor19:plr_06040808 .
+
+lor:plr_06400843 dct:hasVersion lor19:plr_06040809 .
+
+lor:plr_06400844 dct:hasVersion lor19:plr_06040810 .
+
+lor:plr_07100204 dct:hasVersion lor19:plr_07010103 .
+
+lor:plr_07200307 dct:hasVersion lor19:plr_07020201 .
+
+lor:plr_07300618 dct:hasVersion lor19:plr_07030302 .
+
+lor:plr_07300619 dct:hasVersion lor19:plr_07030303 .
+
+lor:plr_07400822 dct:hasVersion lor19:plr_07040402 .
+
+lor:plr_07400826 dct:hasVersion lor19:plr_07040404 .
+
+lor:plr_07400927 dct:hasVersion lor19:plr_07040405 .
+
+lor:plr_07400928 dct:hasVersion lor19:plr_07040406 .
+
+lor:plr_07501031 dct:hasVersion lor19:plr_07050503 .
+
+lor:plr_07501032 dct:hasVersion lor19:plr_07050504 .
+
+lor:plr_07501133 dct:hasVersion lor19:plr_07050502 .
+
+lor:plr_07501134 dct:hasVersion lor19:plr_07050505 .
+
+lor:plr_07501135 dct:hasVersion lor19:plr_07050506 .
+
+lor:plr_07601236 dct:hasVersion lor19:plr_07060601 .
+
+lor:plr_07601237 dct:hasVersion lor19:plr_07060602 .
+
+lor:plr_07601238 dct:hasVersion lor19:plr_07060603 .
+
+lor:plr_07601544 dct:hasVersion lor19:plr_07070703 .
+
+lor:plr_07601545 dct:hasVersion lor19:plr_07070704 .
+
+lor:plr_07601548 dct:hasVersion lor19:plr_07070707 .
+
+lor:plr_08100101 dct:hasVersion lor19:plr_08010115 .
+
+lor:plr_08100105 dct:hasVersion lor19:plr_08010118 .
+
+lor:plr_08100206 dct:hasVersion lor19:plr_08010211 .
+
+lor:plr_08100207 dct:hasVersion lor19:plr_08010212 .
+
+lor:plr_08100208 dct:hasVersion lor19:plr_08010213 .
+
+lor:plr_08100209 dct:hasVersion lor19:plr_08010214 .
+
+lor:plr_08100313 dct:hasVersion lor19:plr_08010302 .
+
+lor:plr_08100314 dct:hasVersion lor19:plr_08010303 .
+
+lor:plr_08100418 dct:hasVersion lor19:plr_08010405 .
+
+lor:plr_08100419 dct:hasVersion lor19:plr_08010406 .
+
+lor:plr_08100520 dct:hasVersion lor19:plr_08010508 .
+
+lor:plr_08100521 dct:hasVersion lor19:plr_08010509 .
+
+lor:plr_08200624 dct:hasVersion lor19:plr_08020620 .
+
+lor:plr_08200725 dct:hasVersion lor19:plr_08020621 .
+
+lor:plr_08200728 dct:hasVersion lor19:plr_08020623 .
+
+lor:plr_08200729 dct:hasVersion lor19:plr_08020624 .
+
+lor:plr_08200730 dct:hasVersion lor19:plr_08020625 .
+
+lor:plr_08200831 dct:hasVersion lor19:plr_08020726 .
+
+lor:plr_08200832 dct:hasVersion lor19:plr_08020727 .
+
+lor:plr_08200833 dct:hasVersion lor19:plr_08020728 .
+
+lor:plr_08401138 dct:hasVersion lor19:plr_08040932 .
+
+lor:plr_08401139 dct:hasVersion lor19:plr_08040933 .
+
+lor:plr_08401140 dct:hasVersion lor19:plr_08040934 .
+
+lor:plr_08401241 dct:hasVersion lor19:plr_08041035 .
+
+lor:plr_08401242 dct:hasVersion lor19:plr_08041036 .
+
+lor:plr_08401243 dct:hasVersion lor19:plr_08041037 .
+
+lor:plr_08401244 dct:hasVersion lor19:plr_08041038 .
+
+lor:plr_08401245 dct:hasVersion lor19:plr_08041039 .
+
+lor:plr_08401246 dct:hasVersion lor19:plr_08041040 .
+
+lor:plr_09100306 dct:hasVersion lor19:plr_09010302 .
+
+lor:plr_09100407 dct:hasVersion lor19:plr_09010401 .
+
+lor:plr_09100408 dct:hasVersion lor19:plr_09010402 .
+
+lor:plr_09200614 dct:hasVersion lor19:plr_09020602 .
+
+lor:plr_09200818 dct:hasVersion lor19:plr_09020801 .
+
+lor:plr_09200819 dct:hasVersion lor19:plr_09020802 .
+
+lor:plr_09300920 dct:hasVersion lor19:plr_09030901 .
+
+lor:plr_09300923 dct:hasVersion lor19:plr_09030903 .
+
+lor:plr_09301126 dct:hasVersion lor19:plr_09031101 .
+
+lor:plr_09301227 dct:hasVersion lor19:plr_09031201 .
+
+lor:plr_09301228 dct:hasVersion lor19:plr_09031202 .
+
+lor:plr_09401329 dct:hasVersion lor19:plr_09041301 .
+
+lor:plr_09401330 dct:hasVersion lor19:plr_09041302 .
+
+lor:plr_09401431 dct:hasVersion lor19:plr_09041401 .
+
+lor:plr_09401432 dct:hasVersion lor19:plr_09041402 .
+
+lor:plr_09401433 dct:hasVersion lor19:plr_09041403 .
+
+lor:plr_09401635 dct:hasVersion lor19:plr_09041601 .
+
+lor:plr_09501736 dct:hasVersion lor19:plr_09051701 .
+
+lor:plr_10100101 dct:hasVersion lor19:plr_10010101 .
+
+lor:plr_10100205 dct:hasVersion lor19:plr_10010203 .
+
+lor:plr_10100206 dct:hasVersion lor19:plr_10010204 .
+
+lor:plr_10100210 dct:hasVersion lor19:plr_10010207 .
+
+lor:plr_10100311 dct:hasVersion lor19:plr_10010308 .
+
+lor:plr_10100312 dct:hasVersion lor19:plr_10010309 .
+
+lor:plr_10100313 dct:hasVersion lor19:plr_10010310 .
+
+lor:plr_10100316 dct:hasVersion lor19:plr_10010311 .
+
+lor:plr_10200420 dct:hasVersion lor19:plr_10020413 .
+
+lor:plr_10200421 dct:hasVersion lor19:plr_10020414 .
+
+lor:plr_10200422 dct:hasVersion lor19:plr_10020415 .
+
+lor:plr_10200423 dct:hasVersion lor19:plr_10020416 .
+
+lor:plr_10200524 dct:hasVersion lor19:plr_10020517 .
+
+lor:plr_10200525 dct:hasVersion lor19:plr_10020518 .
+
+lor:plr_10200526 dct:hasVersion lor19:plr_10020519 .
+
+lor:plr_10300731 dct:hasVersion lor19:plr_10030724 .
+
+lor:plr_10300732 dct:hasVersion lor19:plr_10030725 .
+
+lor:plr_10300733 dct:hasVersion lor19:plr_10030726 .
+
+lor:plr_10300734 dct:hasVersion lor19:plr_10030727 .
+
+lor:plr_10400835 dct:hasVersion lor19:plr_10040828 .
+
+lor:plr_10400836 dct:hasVersion lor19:plr_10040829 .
+
+lor:plr_10400837 dct:hasVersion lor19:plr_10040830 .
+
+lor:plr_10400938 dct:hasVersion lor19:plr_10040931 .
+
+lor:plr_10400939 dct:hasVersion lor19:plr_10040932 .
+
+lor:plr_11100102 dct:hasVersion lor19:plr_11010103 .
+
+lor:plr_11100203 dct:hasVersion lor19:plr_11010204 .
+
+lor:plr_11100204 dct:hasVersion lor19:plr_11010205 .
+
+lor:plr_11100205 dct:hasVersion lor19:plr_11010206 .
+
+lor:plr_11100206 dct:hasVersion lor19:plr_11010207 .
+
+lor:plr_11100307 dct:hasVersion lor19:plr_11010308 .
+
+lor:plr_11100308 dct:hasVersion lor19:plr_11010309 .
+
+lor:plr_11100309 dct:hasVersion lor19:plr_11010310 .
+
+lor:plr_11200410 dct:hasVersion lor19:plr_11020411 .
+
+lor:plr_11200411 dct:hasVersion lor19:plr_11020412 .
+
+lor:plr_11200512 dct:hasVersion lor19:plr_11020513 .
+
+lor:plr_11200513 dct:hasVersion lor19:plr_11020514 .
+
+lor:plr_11200514 dct:hasVersion lor19:plr_11020515 .
+
+lor:plr_11200515 dct:hasVersion lor19:plr_11020516 .
+
+lor:plr_11300620 dct:hasVersion lor19:plr_11030619 .
+
+lor:plr_11300721 dct:hasVersion lor19:plr_11030720 .
+
+lor:plr_11300826 dct:hasVersion lor19:plr_11030824 .
+
+lor:plr_11400927 dct:hasVersion lor19:plr_11040925 .
+
+lor:plr_11401032 dct:hasVersion lor19:plr_11041022 .
+
+lor:plr_11401033 dct:hasVersion lor19:plr_11041023 .
+
+lor:plr_11401034 dct:hasVersion lor19:plr_11041027 .
+
+lor:plr_11501238 dct:hasVersion lor19:plr_11051229 .
+
+lor:plr_11501339 dct:hasVersion lor19:plr_11051330 .
+
+lor:plr_11501340 dct:hasVersion lor19:plr_11051331 .
+
+lor:plr_11501341 dct:hasVersion lor19:plr_11051332 .
+
+lor:plr_12100101 dct:hasVersion lor19:plr_12103117 .
+
+lor:plr_12100102 dct:hasVersion lor19:plr_12103116 .
+
+lor:plr_12100103 dct:hasVersion lor19:plr_12103115 .
+
+lor:plr_12100204 dct:hasVersion lor19:plr_12103219 .
+
+lor:plr_12100205 dct:hasVersion lor19:plr_12103218 .
+
+lor:plr_12100206 dct:hasVersion lor19:plr_12103220 .
+
+lor:plr_12200307 dct:hasVersion lor19:plr_12214421 .
+
+lor:plr_12200309 dct:hasVersion lor19:plr_12214424 .
+
+lor:plr_12200310 dct:hasVersion lor19:plr_12214422 .
+
+lor:plr_12200412 dct:hasVersion lor19:plr_12214125 .
+
+lor:plr_12200413 dct:hasVersion lor19:plr_12214126 .
+
+lor:plr_12200515 dct:hasVersion lor19:plr_12214527 .
+
+lor:plr_12400616 dct:hasVersion lor19:plr_12224229 .
+
+lor:plr_12400619 dct:hasVersion lor19:plr_12224230 .
+
+lor:plr_12500824 dct:hasVersion lor19:plr_12304314 .
+
+lor:plr_12500825 dct:hasVersion lor19:plr_12304313 .
+
+lor:plr_12500927 dct:hasVersion lor19:plr_12301204 .
+
+lor:plr_12500928 dct:hasVersion lor19:plr_12301205 .
+
+lor:plr_12500929 dct:hasVersion lor19:plr_12301206 .
+
+lor:plr_12500930 dct:hasVersion lor19:plr_12301203 .
+
+lor:plr_12601031 dct:hasVersion lor19:plr_12302211 .
+
+lor:plr_12601032 dct:hasVersion lor19:plr_12302212 .
+
+lor:plr_12601133 dct:hasVersion lor19:plr_12302109 .
+
+lor:plr_12601134 dct:hasVersion lor19:plr_12302108 .
+
+lor:plr_12601235 dct:hasVersion lor19:plr_12302110 .
+
+lor:plr_12601236 dct:hasVersion lor19:plr_12302107 .
+
+lor19:plr_04030417 dct:hasVersion lor:plr_04300414,
+        lor:plr_06100102 .
+
+lor19:plr_06010102 dct:hasVersion lor:plr_04300414,
+        lor:plr_06100102 .
+
+lor:plr_04300414 dct:hasVersion lor19:plr_04030417,
+        lor19:plr_06010102 .
+
+lor:plr_06100102 dct:hasVersion lor19:plr_04030417,
+        lor19:plr_06010102 .
+
