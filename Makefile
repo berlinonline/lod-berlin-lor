@@ -76,8 +76,11 @@ data/temp/%.formatted.xml: data/temp/%.xml
 
 # Housekeeping
 
+.PHONY: all
+all: data/temp/all.nt cbds
+
 .PHONY: serve-local
-serve-local: data/temp/all.nt cbds
+serve-local: all
 	@echo "serving local version of static LOD site ..."
 	@bundle exec jekyll serve
 
