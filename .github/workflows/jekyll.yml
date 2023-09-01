@@ -45,6 +45,7 @@ jobs:
           tar zxf jena.tar.gz
           sudo mv apache-jena* /opt/jena
           echo "/opt/jena/bin" >> $GITHUB_PATH
+          rm jena.tar.gz
       - name: Test Apache Installation
         run: |
           riot --version
