@@ -7,6 +7,12 @@
 - prefix: rdfs
   url: http://www.w3.org/2000/01/rdf-schema#
 
+- prefix: owl
+  url: http://www.w3.org/2002/07/owl#
+
+- prefix: xsd
+  url: http://www.w3.org/2001/XMLSchema#
+
 - prefix: geo
   url: http://www.opengis.net/ont/geosparql#
 
@@ -39,3 +45,6 @@
 
 - prefix: unit
   url: https://berlinonline.github.io/lod-berlin-lor/vocab/
+
+- prefix: datenregister
+  url: https://datenregister.berlin.de/dataset/
