@@ -120,3 +120,18 @@ body .container {
 .imprint-block {
     margin-bottom: 30px;
 }
+
+.term-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 10px;
+    padding-left: 10px;
+    margin-bottom: 16px;
+    border: solid 1px rgba(0, 0, 0, 0.125);
+    border-radius: 6px;
+}
+
+.term {
+    padding-right: 15px;
+    padding-bottom: 10px;
+}
