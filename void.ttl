@@ -32,7 +32,7 @@ lor:
         developments in Berlin. This dataset is a conversion of the existing WFS-services to
         Linked Data, or RDF."""@en ;
     dct:created "2022-12-31"^^xsd:date ;
-    dct:modified "2023-03-28"^^xsd:date ;
+    dct:modified "2023-09-02"^^xsd:date ;
     dct:publisher lodbo:berlinonline ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
     foaf:homepage <https://github.com/berlinonline/lod-berlin-lor> ;
