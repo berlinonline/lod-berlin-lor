@@ -1,4 +1,4 @@
-@prefix geo:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix geo:  <http://www.opengis.net/ont/geosparql#> .
 @prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix owl:  <http://www.w3.org/2002/07/owl#> .
@@ -19,7 +19,7 @@ unit: a owl:Ontology ;
     rdfs:comment """A simple vocabulary for describing units of the Lebensweltlich orientierten Räume'
     (LOR), a geographic breakdown of Berlin for the purpose of planning, prognosis and observation of
     demographic and social developments."""@en ;
-    void:dataDump <https://raw.githubusercontent.com/berlinonline/lod-berlin-lor/main/data/vocab/units.ttl> .
+    void:dataDump <https://raw.githubusercontent.com/berlinonline/lod-berlin-lor/main/data/vocab/units.ttl> ;
 .
 
 unit:LOR_Unit a owl:Class ;
