@@ -1,5 +1,6 @@
 @prefix dct:  <http://purl.org/dc/terms/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo:  <http://www.opengis.net/ont/geosparql#> .
 @prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix lodsg: <https://berlinonline.github.io/lod-sg/> .
@@ -11,6 +12,7 @@
 @prefix datenregister: <https://datenregister.berlin.de/dataset/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix unit: <https://berlinonline.github.io/lod-berlin-lor/vocab/> .
 
 lor:
     a void:Dataset ;
@@ -42,7 +44,7 @@ lor:
     void:exampleResource <https://berlinonline.github.io/lod-berlin-lor/pgr_0250> ;
     void:exampleResource <https://berlinonline.github.io/lod-berlin-lor/bzr_025007> ;
     void:exampleResource <https://berlinonline.github.io/lod-berlin-lor/plr_02500729> ;
-    # void:exampleResource <...> ;
+    void:vocabulary unit: , schema: , geo: ;
     prov:wasGeneratedBy lor:triplification ;
     dct:hasVersion <https://berlinonline.github.io/lod-berlin-lor-2019/> ;
 .
