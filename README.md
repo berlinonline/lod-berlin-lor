@@ -4,7 +4,12 @@ The 'Lebensweltlich orientierten Räume', or LOR, is a system that divides the c
 At the top are the 12 Bezirke (burroughs).
 The Bezirke are divided into 58 Prognoseräume, which are further divided into 143 Bezirksregionen.
 Finally, at the lowest level, there are 542 Planungsräume.
-The LORs are the basis for planning, prognosis and monitoring of demographic and social developments in Berlin. 
+The LORs are the basis for planning, prognosis and monitoring of demographic and social developments in Berlin.
+
+For more information the LOR-hierarchy, see:
+
+- https://www.statistik-berlin-brandenburg.de/raumbezuege
+- https://www.berlin.de/sen/sbw/stadtdaten/stadtwissen/sozialraumorientierte-planungsgrundlagen/lebensweltlich-orientierte-raeume/
 
 This dataset is a conversion of the existing WFS-services to Linked Data, or RDF.
 

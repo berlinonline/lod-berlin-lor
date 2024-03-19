@@ -32,11 +32,12 @@ lor:
         developments in Berlin. This dataset is a conversion of the existing WFS-services to
         Linked Data, or RDF."""@en ;
     dct:created "2022-12-31"^^xsd:date ;
-    dct:modified "2023-09-02"^^xsd:date ;
+    dct:modified "2024-03-19"^^xsd:date ;
     dct:publisher lodbo:berlinonline ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
     foaf:homepage <https://github.com/berlinonline/lod-berlin-lor> ;
     foaf:page <https://www.berlin.de/sen/sbw/stadtdaten/stadtwissen/sozialraumorientierte-planungsgrundlagen/lebensweltlich-orientierte-raeume/> ;
+    foaf:page <https://www.statistik-berlin-brandenburg.de/raumbezuege> ;
     void:dataDump <https://raw.githubusercontent.com/berlinonline/lod-berlin-lor/main/data/target/lors.ttl> ;
     void:feature <http://www.w3.org/ns/formats/Turtle> ;
     void:rootResource <https://berlinonline.github.io/lod-berlin-lor/berlin> ;
